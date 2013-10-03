@@ -86,11 +86,11 @@ figs-within-sections
 Chapter 1: preference and choice
 \end_layout
 
-\begin_layout Exercise*
-1
+\begin_layout Subsection*
+1.B.1
 \end_layout
 
-\begin_layout Exercise*
+\begin_layout Standard
 Since 
 \begin_inset Formula $\succsim$
 \end_inset
@@ -109,6 +109,147 @@ Since
 \end_inset
 
 .
+ And because 
+\begin_inset Formula $x\succ y\succsim z$
+\end_inset
+
+, we have 
+\begin_inset Formula $x\succsim y\succsim z$
+\end_inset
+
+.
+ So we get 
+\begin_inset Formula $x\succsim z$
+\end_inset
+
+.
+ Now we need to prove that 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $x\precsim z$
+\end_inset
+
+ is impossible.
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ If 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $x\precsim z$
+\end_inset
+
+, then because of
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ transitivity, we have
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $y\succsim x$
+\end_inset
+
+.
+ But this contradicts with 
+\begin_inset Formula $x\succ y$
+\end_inset
+
+.
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Hence, 
+\begin_inset Formula $x\succ z$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+1.B.2
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $y\succ x\Leftrightarrow y\succsim x$
+\end_inset
+
+ but not 
+\begin_inset Formula $x\succsim y$
+\end_inset
+
+.
+ we cannot have 
+\begin_inset Formula $x\succsim x$
+\end_inset
+
+ but not 
+\begin_inset Formula $x\succsim x$
+\end_inset
+
+ at the same time.
+ Hence 
+\begin_inset Formula $\succ$
+\end_inset
+
+is irreflexive.
+ And 
 \end_layout
 
 \end_body
