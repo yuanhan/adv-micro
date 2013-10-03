@@ -1,0 +1,12 @@
+  Chapter 1: preference and choice
+
+1
+
+Since \succsim
+ is rational, it must satisfy transitivity. Hence, 
+For all x, y, z , if x\succsim y
+ and y\succsim z
+, then x\succsim z
+
+.
+
