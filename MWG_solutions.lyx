@@ -401,7 +401,7 @@ Since
 \end_inset
 
 , then for all x and y, 
-\begin_inset Formula $x\succ y\Leftrightarrow u(x)\geq u(y)$
+\begin_inset Formula $x\succsim y\Leftrightarrow u(x)\geq u(y)$
 \end_inset
 
 .
@@ -448,6 +448,106 @@ Since
 
 \begin_layout Subsection*
 1.B.4
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $x\succsim y$
+\end_inset
+
+, then we have either 
+\begin_inset Formula $x\sim y$
+\end_inset
+
+ or 
+\begin_inset Formula $x\succ y$
+\end_inset
+
+.
+ Hence, 
+\begin_inset Formula $x\succsim y\Rightarrow u(x)\geq u(y)$
+\end_inset
+
+.
+ Similarly, if 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $x\geq y$
+\end_inset
+
+, we have either 
+\begin_inset Formula $x>y$
+\end_inset
+
+, which implies 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $x\succ y$
+\end_inset
+
+, or 
+\begin_inset Formula $x=y$
+\end_inset
+
+, which implies 
+\begin_inset Formula $x\sim y$
+\end_inset
+
+.
+ So we have 
+\begin_inset Formula $u(x)\geq u(y)\Rightarrow x\succsim y$
+\end_inset
+
+.
+ Therefore, 
+\begin_inset Formula $x\succsim y\Leftrightarrow u(x)\geq u(y)$
+\end_inset
+
+ and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $u(x)$
+\end_inset
+
+ can represent 
+\begin_inset Formula $\succsim$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+1.B.5
 \end_layout
 
 \begin_layout Standard

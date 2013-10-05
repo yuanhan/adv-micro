@@ -3,19 +3,6 @@
 \begin_document
 \begin_header
 \textclass article
-\begin_preamble
-\renewcommand\arraystretch{1.2}
-%1.2 表示表格中行间距的缩放比例因子 (缺省的标准值为 1), 中文需要更多的间距
-\renewcommand{\contentsname}{ 目录}
-\renewcommand{\listfigurename}{ 插图目录}
-\renewcommand{\listtablename}{ 表格目录}
-\renewcommand{\refname}{ 参考文献}
-\renewcommand{\abstractname}{ 摘要}
-\renewcommand{\indexname}{ 索引}
-\renewcommand{\tablename}{ 表}
-\renewcommand{\figurename}{ 图}
-...
-\end_preamble
 \use_default_options true
 \begin_modules
 theorems-ams
@@ -83,7 +70,7 @@ figs-within-sections
 \begin_body
 
 \begin_layout Section*
-Chapter 1: preference and choice
+Chapter 1: Preference and Choice
 \end_layout
 
 \begin_layout Subsection*
@@ -197,7 +184,7 @@ Since
 \end_inset
 
 .
- But this contradicts with 
+ But this contradicts 
 \begin_inset Formula $x\succ y$
 \end_inset
 
@@ -249,7 +236,222 @@ Hence,
 \end_inset
 
 is irreflexive.
- And 
+ And if 
+\begin_inset Formula $x\succ y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\succ z$
+\end_inset
+
+, we have 
+\begin_inset Formula $x\succsim y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\succsim z$
+\end_inset
+
+.
+ So 
+\begin_inset Formula $x\succsim z$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $z\succsim x$
+\end_inset
+
+, since 
+\begin_inset Formula $y\succsim z$
+\end_inset
+
+, we have 
+\begin_inset Formula $y\succsim x$
+\end_inset
+
+, which contradicts 
+\begin_inset Formula $x\succ y$
+\end_inset
+
+.
+ Hence 
+\begin_inset Formula $x\succsim z$
+\end_inset
+
+ but not 
+\begin_inset Formula $z\succsim x$
+\end_inset
+
+.
+ So 
+\begin_inset Formula $y\succ z$
+\end_inset
+
+ and 
+\begin_inset Formula $\succ$
+\end_inset
+
+is transitive.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\succ$
+\end_inset
+
+is irreflexive because we always have 
+\begin_inset Formula $x\succsim x$
+\end_inset
+
+ by the completeness.
+ And if 
+\begin_inset Formula $x\sim y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\sim z$
+\end_inset
+
+, we must have 
+\begin_inset Formula $x\succsim y$
+\end_inset
+
+, 
+\begin_inset Formula $y\succsim x$
+\end_inset
+
+, 
+\begin_inset Formula $y\succsim z$
+\end_inset
+
+, and 
+\begin_inset Formula $z\succsim y$
+\end_inset
+
+.
+ since 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\succsim$
+\end_inset
+
+is transitive, we have 
+\begin_inset Formula $x\succsim y$
+\end_inset
+
+ and 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $z\succsim x$
+\end_inset
+
+, which imply that 
+\begin_inset Formula $x\sim z$
+\end_inset
+
+.
+ The conditions for 
+\begin_inset Formula $x\sim y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\sim x$
+\end_inset
+
+ are the same.
+ So 
+\begin_inset Formula $\succ$
+\end_inset
+
+is sysmetric.
+ 
+\end_layout
+
+\begin_layout Subsection*
+1.B.3
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $u$
+\end_inset
+
+ represents 
+\begin_inset Formula $\succsim$
+\end_inset
+
+, then for all x and y, 
+\begin_inset Formula $x\succ y\Leftrightarrow u(x)\geq u(y)$
+\end_inset
+
+.
+ And because 
+\begin_inset Formula $f$
+\end_inset
+
+: 
+\begin_inset Formula $\mathbb{R\Rightarrow\mathbb{R}}$
+\end_inset
+
+ is a strictly increasing function, we must have 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $f(u(x))\geq f(u(y))\Leftrightarrow u(x)\geq u(y)$
+\end_inset
+
+.
+ And it implies 
+\begin_inset Formula $x\succ y\Leftrightarrow f(u(x))\geq f(u(y))$
+\end_inset
+
+.
+ So 
+\begin_inset Formula $v(x)=f(u(x))$
+\end_inset
+
+ is a utility function representing 
+\begin_inset Formula $\succsim$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+1.B.4
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \end_body
