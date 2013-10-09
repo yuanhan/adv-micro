@@ -383,7 +383,7 @@ is transitive, we have
 \begin_inset Formula $\succ$
 \end_inset
 
-is sysmetric.
+is symmetric.
  
 \end_layout
 
@@ -536,7 +536,7 @@ If
 \noun off
 \color none
 
-\begin_inset Formula $u(x)$
+\begin_inset Formula $u(\cdot)$
 \end_inset
 
  can represent 
@@ -551,7 +551,467 @@ If
 \end_layout
 
 \begin_layout Standard
+We use induction to prove that, if there is no indifference between any
+ two different elements of 
+\begin_inset Formula $X$
+\end_inset
 
+, there will always be a utility function representing 
+\begin_inset Formula $\succsim$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $X$
+\end_inset
+
+ is finite, we use 
+\begin_inset Formula $N$
+\end_inset
+
+ to denote the number of elements of 
+\begin_inset Formula $X$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $N=1$
+\end_inset
+
+, it is very obvious that we can assign any value to this element.
+ So let 
+\begin_inset Formula $N>1$
+\end_inset
+
+ and suppose the assertion is true for 
+\begin_inset Formula $N-1$
+\end_inset
+
+.
+ We will show that it is still true for 
+\begin_inset Formula $N$
+\end_inset
+
+.
+ Write 
+\begin_inset Formula $X=\{x_{1},...,x_{N-1},x_{N}\}$
+\end_inset
+
+.
+ By the induction hypothesis, 
+\begin_inset Formula $\succsim$
+\end_inset
+
+can be represented by a utility function.
+ Without loss of generality we can assume that 
+\begin_inset Formula $u(x_{1})>u(x_{2})>...>u(x_{N-1})$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Consider the following three cases:
+\end_layout
+
+\begin_layout Case
+For every 
+\begin_inset Formula $i<N$
+\end_inset
+
+, 
+\begin_inset Formula $x_{N}\succ x_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Case
+For every 
+\begin_inset Formula $i<N$
+\end_inset
+
+, 
+\begin_inset Formula $x_{i}\succ x_{N}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Case
+There exits 
+\begin_inset Formula $i<N$
+\end_inset
+
+ and 
+\begin_inset Formula $j<N$
+\end_inset
+
+ such that 
+\begin_inset Formula $x_{i}\succ x_{N}\succ x_{j}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Since there is no indifference between any two different elements, these
+ three cases are exhaustive and mutually exclusive.
+ We shall now show how the value of 
+\begin_inset Formula $u(x_{N})$
+\end_inset
+
+ should be determined, in each of the three cases, for 
+\begin_inset Formula $u(\cdot)$
+\end_inset
+
+ to represent 
+\begin_inset Formula $\succsim$
+\end_inset
+
+ on the whole 
+\begin_inset Formula $X$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+If Case 1 applies, then take 
+\begin_inset Formula $u(x_{N})$
+\end_inset
+
+ to be larger than 
+\begin_inset Formula $u(x_{1})$
+\end_inset
+
+.
+ If Case 2 applies, take 
+\begin_inset Formula $u(x_{N})$
+\end_inset
+
+ to be smaller than 
+\begin_inset Formula $u(x_{N-1})$
+\end_inset
+
+.
+ Suppose now that Case 3 applies.
+ Let 
+\begin_inset Formula $I=\{i\in\{1,...,N-1\}:x_{i}\succ x_{N+1}\}$
+\end_inset
+
+and 
+\begin_inset Formula $J=\{j\in\{1,...,N-1\}:x_{N+1}\succ x_{j}\}$
+\end_inset
+
+.
+ Completeness and the assumption that there is no indifference implies that
+ 
+\begin_inset Formula $I\cup J=\{1,...,N-1\}$
+\end_inset
+
+.
+ The transitivity implies that both 
+\begin_inset Formula $I$
+\end_inset
+
+ and 
+\begin_inset Formula $J$
+\end_inset
+
+ are 
+\begin_inset Quotes eld
+\end_inset
+
+intervals
+\begin_inset Quotes erd
+\end_inset
+
+ in the sense that if 
+\begin_inset Formula $i\in I$
+\end_inset
+
+ and 
+\begin_inset Formula $i'<i$
+\end_inset
+
+, then 
+\begin_inset Formula $i'\in I$
+\end_inset
+
+; and if 
+\begin_inset Formula $j\in J$
+\end_inset
+
+ and 
+\begin_inset Formula $j'>j$
+\end_inset
+
+, then 
+\begin_inset Formula $j'\in J$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $i^{*}=max\, I$
+\end_inset
+
+, then 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $i^{*}+1=min\, J$
+\end_inset
+
+.
+ Take 
+\begin_inset Formula $u(x_{N})$
+\end_inset
+
+to lie in the open interval 
+\begin_inset Formula $(u(x_{i^{*}+1}),u(x_{i^{*}}))$
+\end_inset
+
+.
+ Then it is easy to see that 
+\begin_inset Formula $u(\cdot)$
+\end_inset
+
+ represents 
+\begin_inset Formula $\succsim$
+\end_inset
+
+ on the whole 
+\begin_inset Formula $X$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Suppose next that there may be indifference between some two elements of
+ 
+\begin_inset Formula $X=\{x_{1},...,x_{N}\}$
+\end_inset
+
+.
+ For each 
+\begin_inset Formula $n=1,...,N$
+\end_inset
+
+, define 
+\begin_inset Formula $X_{n}=\{x_{m}\in X:x_{m}\sim x_{n}\}$
+\end_inset
+
+.
+ Then, by the reflexivity of 
+\begin_inset Formula $\sim$
+\end_inset
+
+, 
+\begin_inset Formula $\overset{N}{\underset{n=1}{\bigcup}X_{n}=X}$
+\end_inset
+
+.
+ Also, by the transitivity of 
+\begin_inset Formula $\sim$
+\end_inset
+
+, if 
+\begin_inset Formula $X_{n}\neq X_{m}$
+\end_inset
+
+, then 
+\begin_inset Formula $X_{n}\cap X_{m}\neq\emptyset$
+\end_inset
+
+.
+ So let 
+\begin_inset Formula $M$
+\end_inset
+
+ be a subset of 
+\begin_inset Formula $\{1,...,N\}$
+\end_inset
+
+ such that 
+\begin_inset Formula $X=\underset{m\in M}{\bigcup}X_{m}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{m}\neq X_{n}$
+\end_inset
+
+ for any 
+\begin_inset Formula $m\in M$
+\end_inset
+
+ and any 
+\begin_inset Formula $n\in M$
+\end_inset
+
+ with 
+\begin_inset Formula $m\neq n$
+\end_inset
+
+.
+ Define an relation 
+\begin_inset Formula $\succsim^{*}$
+\end_inset
+
+ on 
+\begin_inset Formula $\{X_{m}:m\in M\}$
+\end_inset
+
+ by letting 
+\begin_inset Formula $X_{m}\succsim^{*}X_{n}$
+\end_inset
+
+ if and only if 
+\begin_inset Formula $x_{m}\succsim x_{n}$
+\end_inset
+
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+use a single element to represent its equivalence class
+\end_layout
+
+\end_inset
+
+ In fact, by the definition of 
+\begin_inset Formula $M$
+\end_inset
+
+, there is no preceding result, there exists a utility function 
+\begin_inset Formula $u^{*}(\cdot)$
+\end_inset
+
+ that represents 
+\begin_inset Formula $\succsim^{*}$
+\end_inset
+
+.
+ Then define 
+\begin_inset Formula $u:X\rightarrow\mathbb{R}$
+\end_inset
+
+ by 
+\begin_inset Formula $u(X_{n})=u^{*}(X_{m})$
+\end_inset
+
+ if 
+\begin_inset Formula $m\in M$
+\end_inset
+
+ and 
+\begin_inset Formula $x_{n}\in X_{m}$
+\end_inset
+
+.
+ It is easy to show that, by the transtivity, 
+\begin_inset Formula $u(\cdot)$
+\end_inset
+
+ represents 
+\begin_inset Formula $\succsim$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+1.C.1
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $y\in C(\{x,y,z\})$
+\end_inset
+
+ , then according to the weak axiom, we must have 
+\begin_inset Formula $y\in C(\{x,y\})$
+\end_inset
+
+, which contradicts 
+\begin_inset Formula $C(\{x,y\})=\{x\}$
+\end_inset
+
+.
+ Hence, 
+\begin_inset Formula $y\notin C(\{x,y,z\})$
+\end_inset
+
+, i.e.
+ 
+\begin_inset Formula $C(\{x,y,z\})=\{x\},=\{z\},or=\{x,z\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+1.C.2
+\end_layout
+
+\begin_layout Standard
+If the weak axiom holds, since 
+\begin_inset Formula $x,y\in B$
+\end_inset
+
+, 
+\begin_inset Formula $x,y\in B^{'}$
+\end_inset
+
+, 
+\begin_inset Formula $x\in C(B)$
+\end_inset
+
+, and 
+\begin_inset Formula $y\in C(B^{'})$
+\end_inset
+
+, we must have 
+\begin_inset Formula $x\in C(B^{'})$
+\end_inset
+
+, which means 
+\begin_inset Formula $\{x,y\}\subset C(B^{'})$
+\end_inset
+
+.
+ Similarily, we have 
+\begin_inset Formula $\{x,y\}\subset C(B)$
+\end_inset
+
+.
+ Hence, the property in the question holds.
+ 
+\end_layout
+
+\begin_layout Standard
+Conversely, since 
+\begin_inset Formula $\{x,y\}\subset C(B^{'})$
+\end_inset
+
+, we have 
+\begin_inset Formula $x\in C(B^{'})$
+\end_inset
+
+, which is exactly the weak axiom.
 \end_layout
 
 \end_body
