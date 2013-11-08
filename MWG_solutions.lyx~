@@ -14,7 +14,7 @@ figs-within-sections
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
+\font_roman times
 \font_sans default
 \font_typewriter default
 \font_default_family default
@@ -800,7 +800,7 @@ to lie in the open interval
 \end_layout
 
 \begin_layout Standard
-Suppose next that ther may be indifference between some two elements of
+Suppose next that there may be indifference between some two elements of
  
 \begin_inset Formula $X=\{x_{1},...,x_{N}\}$
 \end_inset
@@ -998,7 +998,147 @@ If the weak axiom holds, since
 \end_inset
 
 .
+ Hence, the property in the question holds.
  
+\end_layout
+
+\begin_layout Standard
+Conversely, since 
+\begin_inset Formula $\{x,y\}\subset C(B^{'})$
+\end_inset
+
+, we have 
+\begin_inset Formula $x\in C(B^{'})$
+\end_inset
+
+, which is exactly the weak axiom.
+\end_layout
+
+\begin_layout Subsection*
+1.C.3
+\end_layout
+
+\begin_layout Standard
+In Defination 1.C.2, we define 
+\begin_inset Formula $\succsim^{*}$
+\end_inset
+
+ by 
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $x\succsim^{*}y\Leftrightarrow$
+\end_inset
+
+there is some 
+\begin_inset Formula $B\in\mathfrak{\mathcal{\mathscr{B}}}$
+\end_inset
+
+ such that 
+\begin_inset Formula $x,y\in B$
+\end_inset
+
+ and 
+\begin_inset Formula $x\in C(B)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+If we have 
+\begin_inset Formula $x\succ^{*}y$
+\end_inset
+
+, we have 
+\begin_inset Formula $B\in\mathfrak{\mathcal{\mathscr{B}}}$
+\end_inset
+
+ such that 
+\begin_inset Formula $x,y\in B$
+\end_inset
+
+, 
+\begin_inset Formula $x\in C(B)$
+\end_inset
+
+, and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $y\notin C(B)$
+\end_inset
+
+.
+ Hence, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $x\succsim^{*}y$
+\end_inset
+
+.
+ Suppose that we have 
+\begin_inset Formula $B^{'}\in\mathfrak{\mathcal{\mathscr{B}}}$
+\end_inset
+
+ such that 
+\begin_inset Formula $x,y\in B^{'}$
+\end_inset
+
+, 
+\begin_inset Formula $y\in C(B^{'})$
+\end_inset
+
+.
+ Then according to the weak axiom, we must have 
+\begin_inset Formula $x\in C(B^{'})$
+\end_inset
+
+, which means 
+\begin_inset Formula $y\succsim^{*}x$
+\end_inset
+
+ and contradicts with 
+\begin_inset Formula $x\succ^{*}y$
+\end_inset
+
+.
+ Therefore, 
+\begin_inset Formula $x\succ^{*}y\Rightarrow$
+\end_inset
+
+
+\begin_inset Formula $x\succsim^{*}y$
+\end_inset
+
+ but not 
+\begin_inset Formula $y\succsim^{*}x$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+If we have 
 \end_layout
 
 \end_body
