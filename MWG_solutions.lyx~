@@ -1045,12 +1045,12 @@ there is some
 .
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Case
 If we have 
 \begin_inset Formula $x\succ^{*}y$
 \end_inset
 
-, we have 
+, there is some 
 \begin_inset Formula $B\in\mathfrak{\mathcal{\mathscr{B}}}$
 \end_inset
 
@@ -1126,7 +1126,7 @@ If we have
 \begin_inset Formula $x\succ^{*}y\Rightarrow$
 \end_inset
 
-
+(
 \begin_inset Formula $x\succsim^{*}y$
 \end_inset
 
@@ -1134,11 +1134,169 @@ If we have
 \begin_inset Formula $y\succsim^{*}x$
 \end_inset
 
+) 
+\begin_inset Formula $\Rightarrow x\succ^{**}y$
+\end_inset
+
 .
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Case
 If we have 
+\begin_inset Formula $x\succ^{**}y$
+\end_inset
+
+, ther is some 
+\begin_inset Formula $B\in\mathfrak{\mathcal{\mathscr{B}}}$
+\end_inset
+
+ such that 
+\begin_inset Formula $x,y\in B$
+\end_inset
+
+, 
+\begin_inset Formula $x\in C(B)$
+\end_inset
+
+, and there is not any 
+\begin_inset Formula $B\in\mathfrak{\mathcal{\mathscr{B}}}$
+\end_inset
+
+ such that 
+\begin_inset Formula $x,y\in B$
+\end_inset
+
+, 
+\begin_inset Formula $y\in C(B)$
+\end_inset
+
+.
+ This means 
+\begin_inset Formula $x\succ^{*}y$
+\end_inset
+
+.
+ Hence, 
+\begin_inset Formula $x\succ^{**}y\Rightarrow x\succ^{*}y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Therefore, 
+\begin_inset Formula $x\succ^{**}y\Leftrightarrow x\succ^{*}y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The relation 
+\begin_inset Formula $\succ^{*}$
+\end_inset
+
+ need not be transitive, as shown by the following examle.
+ Define 
+\begin_inset Formula $X=\{x,y,z\}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathscr{B}=\{\{x,y\},\{y,x\}\}$
+\end_inset
+
+, 
+\begin_inset Formula $C(\{y,z\})=\{y\}$
+\end_inset
+
+ and 
+\begin_inset Formula $C(\{x,y\})=\{x\}$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $x\succ^{*}y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\succ^{*}z$
+\end_inset
+
+.
+ But we do not have 
+\begin_inset Formula $x\succsim^{*}z$
+\end_inset
+
+ (because neither of the two sets in 
+\begin_inset Formula $\mathscr{B}$
+\end_inset
+
+ includes 
+\begin_inset Formula $\{x,z\}$
+\end_inset
+
+) and hence we do not have 
+\begin_inset Formula $x\succ*z$
+\end_inset
+
+ either.
+\end_layout
+
+\begin_layout Standard
+Consider 
+\begin_inset Formula $X=\{x,y,z...\}$
+\end_inset
+
+, 
+\begin_inset Formula $x\succ^{*}y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\succ^{*}z$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $\mathscr{B}$
+\end_inset
+
+ includes all three-element subsets of 
+\begin_inset Formula $X$
+\end_inset
+
+, then we have 
+\begin_inset Formula $B=\{x,y,z\}\in\mathscr{B}$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $x\succ^{*}y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\succ^{*}z$
+\end_inset
+
+, 
+\begin_inset Formula $y,z\notin C(B)$
+\end_inset
+
+.
+ Therefore, we must have 
+\begin_inset Formula $x=C(B)$
+\end_inset
+
+ (
+\begin_inset Formula $C(B)\neq\varnothing$
+\end_inset
+
+).
+ So, 
+\begin_inset Formula $x\succ^{*}z$
+\end_inset
+
+.
+ 
 \end_layout
 
 \end_body

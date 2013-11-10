@@ -1299,5 +1299,50 @@ Consider
  
 \end_layout
 
+\begin_layout Subsection*
+1.D.1
+\end_layout
+
+\begin_layout Standard
+If we let 
+\begin_inset Formula $\mathscr{B}$
+\end_inset
+
+ consist of only one-element sets and 
+\begin_inset Formula $C(\{X_{i}\})=X_{i}$
+\end_inset
+
+ for all 
+\begin_inset Formula $X_{i}\in X$
+\end_inset
+
+, then any rational preference relation of X relationalizes 
+\begin_inset Formula $C(\cdot)$
+\end_inset
+
+.
+ For example, 
+\begin_inset Formula $X=\{x,y\}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathscr{B}=\{\{x\},\{y\}\}$
+\end_inset
+
+, 
+\begin_inset Formula $C(\{x\})=\{x\}$
+\end_inset
+
+, and 
+\begin_inset Formula $C(\{y\})=\{y\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
 \end_body
 \end_document
