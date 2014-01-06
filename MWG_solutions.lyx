@@ -1340,8 +1340,246 @@ If we let
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Subsection*
+1.D.2 
+\end_layout
 
+\begin_layout Standard
+According to 1.B.5, let 
+\begin_inset Formula $u(\cdot)$
+\end_inset
+
+ be a utility representation of 
+\begin_inset Formula $\succsim$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $X$
+\end_inset
+
+ is finite, for any 
+\begin_inset Formula $B\subset X$
+\end_inset
+
+ with 
+\begin_inset Formula $B\neq\varnothing$
+\end_inset
+
+, ther exists 
+\begin_inset Formula $x\in B$
+\end_inset
+
+ such that 
+\begin_inset Formula $u(x)\geq u(y)$
+\end_inset
+
+ for all 
+\begin_inset Formula $y\in B$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $x\in C^{*}(B,\succsim)$
+\end_inset
+
+ and hence 
+\begin_inset Formula $C^{*}(B,\succsim)\neq\varnothing$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+1.D.3
+\end_layout
+
+\begin_layout Standard
+According to 1.D.2, 
+\begin_inset Formula $C(\{x,y,z\})\neq\varnothing$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Case
+If 
+\begin_inset Formula $x\in C(\{x,y,z\})$
+\end_inset
+
+, it contracdicts the equality 
+\begin_inset Formula $C(\{x,z\})=\{z\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Case
+If 
+\begin_inset Formula $y\in C(\{x,y,z\})$
+\end_inset
+
+, it contracdicts the equality 
+\begin_inset Formula $C(\{x,y\})=\{x\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Case
+If 
+\begin_inset Formula $z\in C(\{x,y,z\})$
+\end_inset
+
+, it contracdicts the equality 
+\begin_inset Formula $C(\{y,z\})=\{y\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Therefore, 
+\begin_inset Formula $(\mathscr{B},C(\cdot))$
+\end_inset
+
+ must violate the weak axiom.
+\end_layout
+
+\begin_layout Subsection*
+1.D.4
+\end_layout
+
+\begin_layout Standard
+For any 
+\begin_inset Formula $x\in C(B_{1}\cup B_{2})$
+\end_inset
+
+, we must have 
+\begin_inset Formula $x\succsim y$
+\end_inset
+
+ for any 
+\begin_inset Formula $y\in(B_{1}\cup B_{2})$
+\end_inset
+
+.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Hence, we have 
+\begin_inset Formula $x\succsim z_{i}$
+\end_inset
+
+ for any 
+\begin_inset Formula $z_{i}\in B_{i}$
+\end_inset
+
+, for 
+\begin_inset Formula $i=1,2$
+\end_inset
+
+.
+ Therefore, 
+\begin_inset Formula $x\in C(B_{1})$
+\end_inset
+
+ and 
+\begin_inset Formula $x\in C(B_{2})$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+ And because 
+\begin_inset Formula $C(B_{1})\subseteq B_{1}$
+\end_inset
+
+and 
+\begin_inset Formula $C(B_{2})\subseteq B_{2}$
+\end_inset
+
+, we have 
+\begin_inset Formula $(C(B_{1})\cup C(B_{2}))\subseteq(B_{1}\cup B_{2})$
+\end_inset
+
+.
+ Thus, 
+\begin_inset Formula $x\in C(C(B_{1})\cup C(B_{2}))$
+\end_inset
+
+ for any 
+\begin_inset Formula $x\in C(B_{1}\cup B_{2})$
+\end_inset
+
+, which means 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $C(B_{1}\cup B_{2})\subseteq C(C(B_{1})\cup C(B_{2}))$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+For any 
+\begin_inset Formula $y\in C(C(B_{1})\cup C(B_{2}))$
+\end_inset
+
+, we have 
+\begin_inset Formula $y\succsim x$
+\end_inset
+
+ for any 
+\begin_inset Formula $x\in(C(B_{1})\cup C(B_{2}))$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $\succsim$
+\end_inset
+
+ is transitive, we have 
+\begin_inset Formula $y\succsim x_{i}\succsim z_{i}$
+\end_inset
+
+ for any 
+\begin_inset Formula $x\in C(B_{i})$
+\end_inset
+
+ and 
+\begin_inset Formula $z_{i}\in B_{i}$
+\end_inset
+
+, 
+\begin_inset Formula $i=1,2$
+\end_inset
+
+.
+ Therefore, we have 
+\begin_inset Formula $C(C(B_{1})\cup C(B_{2}))\subseteq C(B_{1}\cup B_{2})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+1.D.5
 \end_layout
 
 \end_body
