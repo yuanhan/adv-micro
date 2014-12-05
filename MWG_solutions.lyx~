@@ -3041,6 +3041,19 @@ And because
 \end_inset
 
 .
+ Since 
+\begin_inset Formula $\succsim$
+\end_inset
+
+ is continuous, we can find a 
+\begin_inset Formula $\beta\in(0,1)$
+\end_inset
+
+, such that 
+\begin_inset Formula $\beta(p(\alpha x+(1-\alpha)y))\succ z,\forall u(z)\leq u_{0}$
+\end_inset
+
+.
  This contradicts the optimality of 
 \begin_inset Formula $h(p,u)$
 \end_inset
@@ -3048,64 +3061,1254 @@ And because
 .
 \end_layout
 
-\begin_layout Standard
-d
+\begin_layout Subsection*
+3.G.1
 \end_layout
 
 \begin_layout Standard
-d
+Since the identity 
+\begin_inset Formula $v(p,e(pu))=u$
+\end_inset
+
+ hods for all 
+\begin_inset Formula $p$
+\end_inset
+
+, differentiation with respect to 
+\begin_inset Formula $p$
+\end_inset
+
+ yields
+\begin_inset Formula 
+\[
+\triangledown_{p}v(p,e(p,e))+(\partial v(p,e(p,u)/\partial w)\triangledown_{p}e(p,u)=0
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-d
+By Roy's identity,
 \end_layout
 
 \begin_layout Standard
-d
+\begin_inset Formula 
+\[
+(\partial v(p,e(p,u))\partial w)(-x(p,e(p,u))+\triangledown_{p}e(p,u))=0
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-d
+By 
+\begin_inset Formula $\partial v(p,e(p,u))/\partial w>0$
+\end_inset
+
+ and 
+\begin_inset Formula $h(p,u)=x(p,e(p,u))$
+\end_inset
+
+, we obtain 
+\begin_inset Formula $h(p,u)=\triangledown_{p}e(p,u)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+3.G.2
 \end_layout
 
 \begin_layout Standard
-d
+Omitted
+\end_layout
+
+\begin_layout Subsection*
+3.G.15
 \end_layout
 
 \begin_layout Standard
-d
+(a) we formulate the utility maximization problem as follows
+\begin_inset Formula 
+\[
+\max2x_{1}^{1/2}+4x_{2}^{1/2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+s.t.\thinspace p_{1}x_{1}+p_{2}x_{2}=w
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathcal{L}=2x_{1}^{1/2}+4x_{2}^{1/2}+\lambda(w-p_{1}x_{1}-p_{2}x_{2})
+\]
+
+\end_inset
+
+F.O.C.s
 \end_layout
 
 \begin_layout Standard
-d
+\begin_inset Formula 
+\[
+x_{1}^{-1/2}=p_{1}\lambda
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-d
+\begin_inset Formula 
+\[
+2x_{2}^{-1/2}=p_{2}\lambda
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-d
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+p_{1}x_{1}+p_{2}x_{2}=w
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-d
+\begin_inset Formula 
+\[
+x_{1}(p_{1},p_{2},w)=\frac{p_{2}w}{p_{1}(p_{2}+4p_{1})}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-dd
+\begin_inset Formula 
+\[
+x_{2}(p_{1},p_{2},w)=\frac{4p_{1}w}{p_{2}(p_{2}+4p_{1})}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-d
+(b) we can formulate the expenditure minimization problem as follows
+\begin_inset Formula 
+\[
+\max p_{1}x_{1}+p_{2}x_{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+s.t.\thinspace2x_{1}^{1/2}+4x_{2}^{1/2}=u
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathcal{L}=p_{1}x_{1}-p_{2}x_{2}+\mu(u-2x_{1}^{1/2}-4x_{2}^{1/2})
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-d
+F.O.C.s
+\begin_inset Formula 
+\[
+p_{1}=\mu x_{1}^{-1/2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p_{2}=2\mu x_{2}^{-1/2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+2x_{1}^{1/2}+4x_{2}^{1/2}=u
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+h(p_{1},p_{2},u)=((\frac{p_{2}u}{2(4p_{1}+p_{2})})^{2},(\frac{p_{1}u}{4p_{1}+p_{2}})^{2})
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-d
+(c) 
+\begin_inset Formula 
+\[
+e(p,u)=p_{1}(\frac{p_{2}u}{2(4p_{1}+p_{2})})^{2}+p_{2}(\frac{p_{1}u}{4p_{1}+p_{2}})^{2}=\frac{p_{1}p_{2}u^{2}}{4(4p_{1}+p_{2})}
+\]
+
+\end_inset
+
+It is easy to show that 
+\begin_inset Formula $h(p,u)=\triangledown_{p}e(p,u)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(d) 
+\begin_inset Formula 
+\[
+v(p,w)=\frac{2\sqrt{w(p_{2}+4p_{1})}}{\sqrt{p_{1}p_{2}}}
+\]
+
+\end_inset
+
+It is easy to verify Roy's identity.
+\end_layout
+
+\begin_layout Section*
+Chapter 5: Production
+\end_layout
+
+\begin_layout Subsection*
+5.B.3
+\end_layout
+
+\begin_layout Standard
+Firstly, we suppose that 
+\begin_inset Formula $Y$
+\end_inset
+
+ is convex.
+ Let 
+\begin_inset Formula $z,z'\in\mathbb{R}_{+}^{L-1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\alpha\in[0,1]$
+\end_inset
+
+, then 
+\begin_inset Formula $(-z,f(z))\in Y$
+\end_inset
+
+ and 
+\begin_inset Formula $(-z',f(z'))\in Y$
+\end_inset
+
+.
+ By the convexity, 
+\begin_inset Formula 
+\[
+(-(\alpha z+(1-\alpha)z'),\alpha f(z)+(1-\alpha)f(z'))\in Y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus, 
+\begin_inset Formula $\alpha f(z)+(1-\alpha)f(z')\leq f(\alpha z+(1-\alpha)z')$
+\end_inset
+
+.
+ Hence, 
+\begin_inset Formula $f(z)$
+\end_inset
+
+ is concave.
+\end_layout
+
+\begin_layout Standard
+Second, we suppose that 
+\begin_inset Formula $f(z)$
+\end_inset
+
+ is concave.
+ Then for any 
+\begin_inset Formula $(-z,q)$
+\end_inset
+
+ and 
+\begin_inset Formula $(-z',q')$
+\end_inset
+
+ and 
+\begin_inset Formula $\alpha\in[0,1]$
+\end_inset
+
+, then 
+\begin_inset Formula $q\leq f(z)$
+\end_inset
+
+ and 
+\begin_inset Formula $q'\leq f(z')$
+\end_inset
+
+.
+ Hence 
+\begin_inset Formula 
+\[
+\alpha q+(1-\alpha)q'\leq\alpha f(z)+(1-\alpha)f(z')
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By the concavity,
+\begin_inset Formula 
+\[
+\alpha f(z)+(1-\alpha)f(z')\leq f(\alpha z+(1-\alpha)z')
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus,
+\begin_inset Formula 
+\[
+\alpha q+(1-\alpha)q'\leq f(\alpha z+(1-\alpha)z')
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hence
+\begin_inset Formula 
+\[
+(-(\alpha z+(1-\alpha)z'),\alpha q+(1-\alpha)q')=\alpha(-z,q)+(1-\alpha)(-z',q')\in Y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Therefore 
+\begin_inset Formula $Y$
+\end_inset
+
+ ia convex.
+\end_layout
+
+\begin_layout Subsection*
+5.C.1
+\end_layout
+
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $Y$
+\end_inset
+
+ exhibits nondecreasing returns to scale.
+ And for nonnegative 
+\begin_inset Formula $p$
+\end_inset
+
+, we have 
+\begin_inset Formula $\pi(p)=py(p)$
+\end_inset
+
+.
+ Suppose 
+\begin_inset Formula $\pi(p)$
+\end_inset
+
+ is a finite positive number.
+ Then according to the definition of nondecreasing returns to scale, 
+\begin_inset Formula $\forall\alpha\geqq1$
+\end_inset
+
+, we have 
+\begin_inset Formula $\alpha y(p)\in Y$
+\end_inset
+
+.
+ Then we can have a higher profit 
+\begin_inset Formula $\alpha\pi(p)=\alpha py(p)$
+\end_inset
+
+, which will be infinite as 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ increase infinitely.
+\end_layout
+
+\begin_layout Standard
+Suppose 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\pi(p)=py(p)\le0$
+\end_inset
+
+, then there is no incentive to change.
+ Therefore, we have either 
+\begin_inset Formula $\pi(p)=+\infty$
+\end_inset
+
+ or 
+\begin_inset Formula $\pi(p)\le0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+5.C.11
+\end_layout
+
+\begin_layout Standard
+Assume that 
+\begin_inset Formula $c(\cdot)$
+\end_inset
+
+ is twice continuously differentiable.
+ By Proposition 5.C.2(vi), 
+\begin_inset Formula $z(\cdot)$
+\end_inset
+
+ is continuously differentiable and 
+\begin_inset Formula 
+\[
+\partial z_{l}(w,q)/\partial q=(\partial/\partial q)(\partial c(w,q)/\partial w_{l})=(\partial/\partial w_{l})(\partial c(w,q)/\partial q)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hence 
+\begin_inset Formula $\partial z_{l}(w,q)/\partial q>0$
+\end_inset
+
+ if and only if 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $(\partial/\partial w_{l})(\partial c(w,q)/\partial q)>0$
+\end_inset
+
+, that is, marginal cost is increasing in 
+\begin_inset Formula $w_{l}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+5.D.1
+\end_layout
+
+\begin_layout Standard
+We shall use the differentiablility of 
+\begin_inset Formula $c(\cdot)$
+\end_inset
+
+ only at 
+\begin_inset Formula $\bar{q}$
+\end_inset
+
+.
+ The everywhere differentiability is not necessary.
+ By definition,
+\begin_inset Formula 
+\[
+AC'(q)=\frac{d}{dq}(\frac{c(\bar{q})}{\bar{q}})=\frac{c'(\bar{q})\bar{q}-c(\bar{q})}{\bar{q}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus, if the average cost is minimized at 
+\begin_inset Formula $q=\bar{q}$
+\end_inset
+
+, then 
+\begin_inset Formula $AC'(\bar{q})=0$
+\end_inset
+
+ and hence 
+\begin_inset Formula $c'(\bar{q})=c(\bar{q})/\bar{q}=AC(\bar{q})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+5.E.5
+\end_layout
+
+\begin_layout Standard
+(a) Formulate the profit maximizing problem as follows.
+\begin_inset Formula 
+\[
+\min\sum_{j=1}^{J}\alpha q_{j}+\beta_{j}q_{j}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s.t.\sum q_{j}=q
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Solving this problem, we have 
+\begin_inset Formula 
+\[
+q_{j}=\frac{q/\beta_{j}}{\sum_{h}^{J}1/\beta_{h}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(b)(c) In both cases, it is cost-minimizing to concentrate on plants with
+ the smallest 
+\begin_inset Formula $\beta_{j}<0$
+\end_inset
+
+, because the average cost is decreasing at the highest rate at such plants.
+\end_layout
+
+\begin_layout Subsection*
+5.F.1
+\end_layout
+
+\begin_layout Standard
+Omitted.
+\end_layout
+
+\begin_layout Section*
+Chapter 6: Choice under Uncertainty
+\end_layout
+
+\begin_layout Subsection*
+6.B.1
+\end_layout
+
+\begin_layout Standard
+(a) If 
+\begin_inset Formula $\alpha L+(1-\alpha)L''\alpha L'+(1-\alpha)L''$
+\end_inset
+
+, we have 
+\begin_inset Formula $\alpha L+(1-\alpha)L''\succeq\alpha L'+(1-\alpha)L''$
+\end_inset
+
+ and not 
+\begin_inset Formula $\alpha L+(1-\alpha)L''\preceq\alpha L'+(1-\alpha)L''$
+\end_inset
+
+.
+ According to the independent axiom, this is equivalent to 
+\begin_inset Formula $L\succeq L'$
+\end_inset
+
+ and not 
+\begin_inset Formula $L\preceq L'$
+\end_inset
+
+, which amounts to 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $L\succ L'$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+If 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $L\succ L'$
+\end_inset
+
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+we have 
+\begin_inset Formula $L\succeq L'$
+\end_inset
+
+ and not 
+\begin_inset Formula $L\preceq L'$
+\end_inset
+
+.
+ According to the independent axiom, this is equivalent to
+\begin_inset Formula $\alpha L+(1-\alpha)L''\succeq\alpha L'+(1-\alpha)L''$
+\end_inset
+
+ and not 
+\begin_inset Formula $\alpha L+(1-\alpha)L''\preceq\alpha L'+(1-\alpha)L''$
+\end_inset
+
+, which amounts to 
+\begin_inset Formula $\alpha L+(1-\alpha)L''\succ\alpha L'+(1-\alpha)L''$
+\end_inset
+
+, thus completing the proof of the first claim.
+\end_layout
+
+\begin_layout Standard
+The second claim can be proved in the same way.
+\end_layout
+
+\begin_layout Standard
+For the las part of the exercise, we use the independent axiom twice.
+ Because 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $L\succ L'$
+\end_inset
+
+, we have 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\alpha L+(1-\alpha)L''\mathbf{\succ}\alpha L'+(1-\alpha)L''$
+\end_inset
+
+.
+ Because 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $L''\succ L'''$
+\end_inset
+
+, we have 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\alpha L'+(1-\alpha)L''\succ\alpha L'+(1-\alpha)L'''$
+\end_inset
+
+.
+ Combining them, we have 
+\begin_inset Formula $\alpha L+(1-\alpha)L''\succ\alpha L'+(1-\alpha)L'''$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+6.B.2
+\end_layout
+
+\begin_layout Standard
+We assume that the preference relation 
+\begin_inset Formula $\succeq$
+\end_inset
+
+is represented by an v.N.M expected utility function 
+\begin_inset Formula $U(L)=\sum_{n}u_{n}p_{n}\forall L=(p_{1},...,p_{n})\in\mathscr{L}$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $L=(p_{1},...,p_{n})\in\mathscr{L}$
+\end_inset
+
+, 
+\begin_inset Formula $L'=(p'_{1},...,p'_{n})\in\mathscr{L}$
+\end_inset
+
+, 
+\begin_inset Formula $L''=(p''_{1},...,p''_{n})\in\mathscr{L}$
+\end_inset
+
+, and 
+\begin_inset Formula $\alpha\in(0,1)$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $L\succeq L'$
+\end_inset
+
+ if and only if 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sum_{n}u_{n}p_{n}\geq\sum_{n}u_{n}p'_{n}$
+\end_inset
+
+.
+ This inequality is equivalent to 
+\begin_inset Formula 
+\[
+\alpha(\sum_{n}u_{n}p_{n})+(1-\alpha)\sum_{n}u_{n}p''_{n}\geq\alpha(\sum_{n}u_{n}p'_{n})+(1-\alpha)\sum_{n}u_{n}p''_{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This latter inequality holds if and only if 
+\begin_inset Formula $\alpha L+(1-\alpha)L'\succeq\alpha L'+(1-\alpha)L''$
+\end_inset
+
+.
+ Hence 
+\begin_inset Formula $L\succeq L'$
+\end_inset
+
+ if and only if 
+\begin_inset Formula $\alpha L+(1-\alpha)L'\succeq\alpha L'+(1-\alpha)L''$
+\end_inset
+
+.
+ Thus the indenpence axiom holds.
+\end_layout
+
+\begin_layout Subsection*
+6.B.3
+\end_layout
+
+\begin_layout Standard
+Since the set 
+\begin_inset Formula $C$
+\end_inset
+
+ of outcomes id finite, there are best and worst outcomes in 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $\bar{L}$
+\end_inset
+
+ be the lottery that yields a particcular best outcome with probability
+ one and 
+\begin_inset Formula $\underbar{L}$
+\end_inset
+
+ be the lottery that yields a particular worst outcome with probability
+ one.
+ We shall now prove that 
+\begin_inset Formula $\bar{L}\succeq L\succeq\underline{L}\forall L\in\mathscr{L}$
+\end_inset
+
+ by applying the following lemma:
+\end_layout
+
+\begin_layout Lemma*
+Let 
+\begin_inset Formula $L_{0},L_{1},...,L_{K}$
+\end_inset
+
+be 
+\begin_inset Formula $(1+K)$
+\end_inset
+
+ lotteries and 
+\begin_inset Formula $(\alpha_{1},...\alpha_{K})\geq0$
+\end_inset
+
+ be probabilities with 
+\begin_inset Formula $\sum_{k=1}^{K}\alpha_{k}=1$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $L_{k}\geq L_{0}\forall k$
+\end_inset
+
+, then 
+\begin_inset Formula $\sum_{k=1}^{K}\alpha_{k}L_{k}\succeq L_{0}$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $L_{0}\geq L_{k}\forall k$
+\end_inset
+
+, then 
+\begin_inset Formula $L_{0}\succeq\sum_{k=1}^{K}\alpha_{k}L_{k}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+We shall prove the lemma by induction on 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $K=1$
+\end_inset
+
+, there is nothing to prove.
+ So let 
+\begin_inset Formula $K>1$
+\end_inset
+
+ and suppose that the lemma is true for 
+\begin_inset Formula $K-1$
+\end_inset
+
+.
+ Assume that 
+\begin_inset Formula $L_{k}\geq L_{0}\forall k$
+\end_inset
+
+.
+ By the definition of a compound lottery, 
+\color red
+
+\begin_inset Formula 
+\[
+\sum_{k=1}^{K}\alpha_{k}L_{k}=(1-\alpha_{K})\sum_{k=1}^{K-1}\frac{\alpha_{k}}{1-\alpha_{K}}L_{k}+\alpha_{K}L_{K}
+\]
+
+\end_inset
+
+
+\color inherit
+By the induction hypothesis, 
+\begin_inset Formula $\sum_{k=1}^{K-1}\frac{\alpha_{k}}{1-\alpha_{K}}L_{k}\succeq L_{0}$
+\end_inset
+
+.
+ Hence, as our first application of the indenpendence axiom, we obtain
+\begin_inset Formula 
+\[
+(1-\alpha_{K})\sum_{k=1}^{K-1}\frac{\alpha_{k}}{1-\alpha_{K}}L_{k}+\alpha_{K}L_{K}\succeq(1-\alpha_{K})L_{0}+\alpha_{K}L_{K}
+\]
+
+\end_inset
+
+Applying the axiom once again, we obtain
+\begin_inset Formula 
+\[
+(1-\alpha_{K})L_{0}+\alpha_{K}L_{K}\succeq(1-\alpha_{K})L_{0}+\alpha_{K}L_{0}=L_{0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Hence, by the transivity, 
+\begin_inset Formula $\sum_{k=1}^{K}\alpha_{k}L_{k}\succeq L_{0}$
+\end_inset
+
+.
+ The first statement is thus verified.
+ The case of 
+\begin_inset Formula $L_{0}\succeq L_{k}$
+\end_inset
+
+ can similarly be verified.
+\end_layout
+
+\begin_layout Proof
+Now, for each 
+\begin_inset Formula $n$
+\end_inset
+
+, let 
+\begin_inset Formula $L^{n}$
+\end_inset
+
+ be the lottery that yields outcome 
+\begin_inset Formula $n$
+\end_inset
+
+ with probability one.
+ Then 
+\begin_inset Formula $\bar{L}\succeq L^{n}$
+\end_inset
+
+ because both of them can be indentified with sure outcomes.
+ Let 
+\begin_inset Formula $L=(p_{1},...,p_{n})$
+\end_inset
+
+ be any lottery, then 
+\begin_inset Formula $L=\sum_{n}p_{n}L^{n}$
+\end_inset
+
+.
+ Thus, 
+\begin_inset Formula $\bar{L}\succeq L$
+\end_inset
+
+ from the above lemma.
+ The same argument can be used to prove that 
+\begin_inset Formula $L\succeq\underline{L}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+6.C.1
+\end_layout
+
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $\alpha^{*}>0$
+\end_inset
+
+, we have 
+\begin_inset Formula 
+\[
+u'(w-\alpha^{*}q)=\frac{\pi(1-q)}{(1-\pi)q}u'(w-D+\alpha^{*}(1-q))
+\]
+
+\end_inset
+
+Because 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $q>\pi$
+\end_inset
+
+, we have 
+\begin_inset Formula $\frac{\pi(1-q)}{(1-\pi)q}<1$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $u'(\cdot)$
+\end_inset
+
+ is strictly decreasing, we have 
+\begin_inset Formula 
+\[
+w-\alpha^{*}q>w-D+\alpha^{*}(1-q)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus 
+\begin_inset Formula $\alpha^{*}<D$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+Chapter 8: Simultaneous-Move Games
+\end_layout
+
+\begin_layout Subsection*
+8.B.4
+\end_layout
+
+\begin_layout Standard
+Call the set of strategies for player 
+\begin_inset Formula $i$
+\end_inset
+
+ that remain after 
+\begin_inset Formula $N$
+\end_inset
+
+ rounds of deletion of strictly dominated strategies 
+\begin_inset Formula $\sum_{i}^{N}$
+\end_inset
+
+.
+ Suppose 
+\begin_inset Formula $s_{i}\in\sum_{i}^{N}$
+\end_inset
+
+ is a strictly dominated strategy given the strategies 
+\begin_inset Formula $\sum_{-i}^{N}$
+\end_inset
+
+ of the other players.
+ Therefore, there exists a strategy 
+\begin_inset Formula $s_{i}^{*}\in\sum_{i}^{N}$
+\end_inset
+
+, which strictly dominates 
+\begin_inset Formula $s_{i}$
+\end_inset
+
+ but it noe a strictly dominated strategy given 
+\begin_inset Formula $\sum_{-i}^{N}$
+\end_inset
+
+.
+ Suppose further that 
+\begin_inset Formula $s_{i}$
+\end_inset
+
+ will not be deleted in the 
+\begin_inset Formula $N+1$
+\end_inset
+
+ round.
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $s_{i}$
+\end_inset
+
+ was strictly dominated by 
+\begin_inset Formula $s_{i}^{*}$
+\end_inset
+
+ given 
+\begin_inset Formula $\sum_{-i}^{N}$
+\end_inset
+
+, it will still be strictly dominated by 
+\begin_inset Formula $s_{i}^{*}$
+\end_inset
+
+ given 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sum_{i}^{N+1}\subseteq\sum_{i}^{N}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, and 
+\begin_inset Formula $s_{i}^{*}\in\sum_{i}^{N+1}$
+\end_inset
+
+.
+ Thus the stratefy 
+\begin_inset Formula $s_{i}$
+\end_inset
+
+ will be deleted in the next round.
+ 
+\end_layout
+
+\begin_layout Standard
+(This is not the case for a process of iterated deletion of weakly dominated
+ strategies.)
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Standard
