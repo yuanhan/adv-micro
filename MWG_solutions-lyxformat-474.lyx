@@ -1,0 +1,4690 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2.5cm
+\topmargin 2cm
+\rightmargin 2.5cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+Chapter 1: Preference and Choice
+\end_layout
+
+\begin_layout Subsection*
+1.B.1
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $\succsim$
+\end_inset
+
+ is rational, it must satisfy transitivity.
+ Hence, For all x, y, z , if 
+\begin_inset Formula $x\succsim y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\succsim z$
+\end_inset
+
+, then 
+\begin_inset Formula $x\succsim z$
+\end_inset
+
+.
+ And because 
+\begin_inset Formula $x\succ y\succsim z$
+\end_inset
+
+, we have 
+\begin_inset Formula $x\succsim y\succsim z$
+\end_inset
+
+.
+ So we get 
+\begin_inset Formula $x\succsim z$
+\end_inset
+
+.
+ Now we need to prove that 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $x\precsim z$
+\end_inset
+
+ is impossible.
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ If 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $x\precsim z$
+\end_inset
+
+, then because of
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ transitivity, we have
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $y\succsim x$
+\end_inset
+
+.
+ But this contradicts 
+\begin_inset Formula $x\succ y$
+\end_inset
+
+.
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Hence, 
+\begin_inset Formula $x\succ z$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+1.B.2
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $y\succ x\Leftrightarrow y\succsim x$
+\end_inset
+
+ but not 
+\begin_inset Formula $x\succsim y$
+\end_inset
+
+.
+ we cannot have 
+\begin_inset Formula $x\succsim x$
+\end_inset
+
+ but not 
+\begin_inset Formula $x\succsim x$
+\end_inset
+
+ at the same time.
+ Hence 
+\begin_inset Formula $\succ$
+\end_inset
+
+is irreflexive.
+ And if 
+\begin_inset Formula $x\succ y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\succ z$
+\end_inset
+
+, we have 
+\begin_inset Formula $x\succsim y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\succsim z$
+\end_inset
+
+.
+ So 
+\begin_inset Formula $x\succsim z$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $z\succsim x$
+\end_inset
+
+, since 
+\begin_inset Formula $y\succsim z$
+\end_inset
+
+, we have 
+\begin_inset Formula $y\succsim x$
+\end_inset
+
+, which contradicts 
+\begin_inset Formula $x\succ y$
+\end_inset
+
+.
+ Hence 
+\begin_inset Formula $x\succsim z$
+\end_inset
+
+ but not 
+\begin_inset Formula $z\succsim x$
+\end_inset
+
+.
+ So 
+\begin_inset Formula $y\succ z$
+\end_inset
+
+ and 
+\begin_inset Formula $\succ$
+\end_inset
+
+is transitive.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\succ$
+\end_inset
+
+is irreflexive because we always have 
+\begin_inset Formula $x\succsim x$
+\end_inset
+
+ by the completeness.
+ And if 
+\begin_inset Formula $x\sim y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\sim z$
+\end_inset
+
+, we must have 
+\begin_inset Formula $x\succsim y$
+\end_inset
+
+, 
+\begin_inset Formula $y\succsim x$
+\end_inset
+
+, 
+\begin_inset Formula $y\succsim z$
+\end_inset
+
+, and 
+\begin_inset Formula $z\succsim y$
+\end_inset
+
+.
+ since 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\succsim$
+\end_inset
+
+is transitive, we have 
+\begin_inset Formula $x\succsim y$
+\end_inset
+
+ and 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $z\succsim x$
+\end_inset
+
+, which imply that 
+\begin_inset Formula $x\sim z$
+\end_inset
+
+.
+ The conditions for 
+\begin_inset Formula $x\sim y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\sim x$
+\end_inset
+
+ are the same.
+ So 
+\begin_inset Formula $\succ$
+\end_inset
+
+is symmetric.
+ 
+\end_layout
+
+\begin_layout Subsection*
+1.B.3
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $u$
+\end_inset
+
+ represents 
+\begin_inset Formula $\succsim$
+\end_inset
+
+, then for all x and y, 
+\begin_inset Formula $x\succsim y\Leftrightarrow u(x)\geq u(y)$
+\end_inset
+
+.
+ And because 
+\begin_inset Formula $f$
+\end_inset
+
+: 
+\begin_inset Formula $\mathbb{R\Rightarrow\mathbb{R}}$
+\end_inset
+
+ is a strictly increasing function, we must have 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $f(u(x))\geq f(u(y))\Leftrightarrow u(x)\geq u(y)$
+\end_inset
+
+.
+ And it implies 
+\begin_inset Formula $x\succsim y\Leftrightarrow f(u(x))\geq f(u(y))$
+\end_inset
+
+.
+ So 
+\begin_inset Formula $v(x)=f(u(x))$
+\end_inset
+
+ is a utility function representing 
+\begin_inset Formula $\succsim$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+1.B.4
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $x\succsim y$
+\end_inset
+
+, then we have either 
+\begin_inset Formula $x\sim y$
+\end_inset
+
+ or 
+\begin_inset Formula $x\succ y$
+\end_inset
+
+.
+ Hence, 
+\begin_inset Formula $x\succsim y\Rightarrow u(x)\geq u(y)$
+\end_inset
+
+.
+ Similarly, if 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $u(x)\geq u(y)$
+\end_inset
+
+, we have either 
+\begin_inset Formula $u(x)>u(y)$
+\end_inset
+
+, which implies 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $x\succ y$
+\end_inset
+
+, or 
+\begin_inset Formula $u(x)=u(y)$
+\end_inset
+
+, which implies 
+\begin_inset Formula $x\sim y$
+\end_inset
+
+.
+ So we have 
+\begin_inset Formula $u(x)\geq u(y)\Rightarrow x\succsim y$
+\end_inset
+
+.
+ Therefore, 
+\begin_inset Formula $x\succsim y\Leftrightarrow u(x)\geq u(y)$
+\end_inset
+
+ and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $u(\cdot)$
+\end_inset
+
+ can represent 
+\begin_inset Formula $\succsim$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+1.B.5
+\end_layout
+
+\begin_layout Standard
+We use 
+\color red
+induction
+\color inherit
+ to prove that, if there is no indifference between any two different elements
+ of 
+\begin_inset Formula $X$
+\end_inset
+
+, there will always be a utility function representing 
+\begin_inset Formula $\succsim$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $X$
+\end_inset
+
+ is finite, we use 
+\begin_inset Formula $N$
+\end_inset
+
+ to denote the number of elements of 
+\begin_inset Formula $X$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $N=1$
+\end_inset
+
+, it is very obvious that we can assign any value to this element.
+ 
+\color red
+So let 
+\begin_inset Formula $N>1$
+\end_inset
+
+ and suppose the assertion is true for 
+\begin_inset Formula $N-1$
+\end_inset
+
+.
+ We will show that it is still true for 
+\begin_inset Formula $N$
+\end_inset
+
+.
+
+\color inherit
+ Write 
+\begin_inset Formula $X=\{x_{1},...,x_{N-1},x_{N}\}$
+\end_inset
+
+.
+ By the induction hypothesis, 
+\begin_inset Formula $\succsim$
+\end_inset
+
+can be represented by a utility function.
+ Without loss of generality we can assume that 
+\begin_inset Formula $u(x_{1})>u(x_{2})>...>u(x_{N-1})$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Consider the following three cases:
+\end_layout
+
+\begin_layout Case
+For every 
+\begin_inset Formula $i<N$
+\end_inset
+
+, 
+\begin_inset Formula $x_{N}\succ x_{i}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Case
+For every 
+\begin_inset Formula $i<N$
+\end_inset
+
+, 
+\begin_inset Formula $x_{i}\succ x_{N}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Case
+There exits 
+\begin_inset Formula $i<N$
+\end_inset
+
+ and 
+\begin_inset Formula $j<N$
+\end_inset
+
+ such that 
+\begin_inset Formula $x_{i}\succ x_{N}\succ x_{j}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Since there is no indifference between any two different elements, these
+ three cases are exhaustive and mutually exclusive.
+ We shall now show how the value of 
+\begin_inset Formula $u(x_{N})$
+\end_inset
+
+ should be determined, in each of the three cases, for 
+\begin_inset Formula $u(\cdot)$
+\end_inset
+
+ to represent 
+\begin_inset Formula $\succsim$
+\end_inset
+
+ on the whole 
+\begin_inset Formula $X$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+If Case 1 applies, then take 
+\begin_inset Formula $u(x_{N})$
+\end_inset
+
+ to be larger than 
+\begin_inset Formula $u(x_{1})$
+\end_inset
+
+.
+ If Case 2 applies, take 
+\begin_inset Formula $u(x_{N})$
+\end_inset
+
+ to be smaller than 
+\begin_inset Formula $u(x_{N-1})$
+\end_inset
+
+.
+ Suppose now that Case 3 applies.
+ Let 
+\begin_inset Formula $I=\{i\in\{1,...,N-1\}:x_{i}\succ x_{N+1}\}$
+\end_inset
+
+and 
+\begin_inset Formula $J=\{j\in\{1,...,N-1\}:x_{N+1}\succ x_{j}\}$
+\end_inset
+
+.
+ Completeness and the assumption that there is no indifference implies that
+ 
+\begin_inset Formula $I\cup J=\{1,...,N-1\}$
+\end_inset
+
+.
+ The transitivity implies that both 
+\begin_inset Formula $I$
+\end_inset
+
+ and 
+\begin_inset Formula $J$
+\end_inset
+
+ are 
+\begin_inset Quotes eld
+\end_inset
+
+intervals
+\begin_inset Quotes erd
+\end_inset
+
+ in the sense that if 
+\begin_inset Formula $i\in I$
+\end_inset
+
+ and 
+\begin_inset Formula $i'<i$
+\end_inset
+
+, then 
+\begin_inset Formula $i'\in I$
+\end_inset
+
+; and if 
+\begin_inset Formula $j\in J$
+\end_inset
+
+ and 
+\begin_inset Formula $j'>j$
+\end_inset
+
+, then 
+\begin_inset Formula $j'\in J$
+\end_inset
+
+.
+ 
+\color red
+Let 
+\begin_inset Formula $i^{*}=max\, I$
+\end_inset
+
+, then 
+\begin_inset Formula $i^{*}+1=min\, J$
+\end_inset
+
+.
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ Take 
+\begin_inset Formula $u(x_{N})$
+\end_inset
+
+to lie in the open interval 
+\begin_inset Formula $(u(x_{i^{*}+1}),u(x_{i^{*}}))$
+\end_inset
+
+.
+ Then it is easy to see that 
+\begin_inset Formula $u(\cdot)$
+\end_inset
+
+ represents 
+\begin_inset Formula $\succsim$
+\end_inset
+
+ on the whole 
+\begin_inset Formula $X$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Suppose next that there may be indifference between some two elements of
+ 
+\begin_inset Formula $X=\{x_{1},...,x_{N}\}$
+\end_inset
+
+.
+ For each 
+\begin_inset Formula $n=1,...,N$
+\end_inset
+
+, 
+\color red
+define 
+\begin_inset Formula $X_{n}=\{x_{m}\in X:x_{m}\sim x_{n}\}$
+\end_inset
+
+
+\color inherit
+.
+ Then, by the reflexivity of 
+\begin_inset Formula $\sim$
+\end_inset
+
+, 
+\begin_inset Formula $\overset{N}{\underset{n=1}{\bigcup}X_{n}=X}$
+\end_inset
+
+.
+ Also, by the transitivity of 
+\begin_inset Formula $\sim$
+\end_inset
+
+, if 
+\begin_inset Formula $X_{n}\neq X_{m}$
+\end_inset
+
+, then 
+\begin_inset Formula $X_{n}\cap X_{m}\neq\emptyset$
+\end_inset
+
+.
+
+\color red
+ So let 
+\begin_inset Formula $M$
+\end_inset
+
+ be a subset of 
+\begin_inset Formula $\{1,...,N\}$
+\end_inset
+
+ such that 
+\begin_inset Formula $X=\underset{m\in M}{\bigcup}X_{m}$
+\end_inset
+
+ and 
+\begin_inset Formula $X_{m}\neq X_{n}$
+\end_inset
+
+ for any 
+\begin_inset Formula $m\in M$
+\end_inset
+
+ and any 
+\begin_inset Formula $n\in M$
+\end_inset
+
+ with 
+\begin_inset Formula $m\neq n$
+\end_inset
+
+.
+
+\color inherit
+ Define an relation 
+\begin_inset Formula $\succsim^{*}$
+\end_inset
+
+ on 
+\begin_inset Formula $\{X_{m}:m\in M\}$
+\end_inset
+
+ by letting 
+\begin_inset Formula $X_{m}\succsim^{*}X_{n}$
+\end_inset
+
+ if and only if 
+\begin_inset Formula $x_{m}\succsim x_{n}$
+\end_inset
+
+.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+use a single element to represent its equivalence class
+\end_layout
+
+\end_inset
+
+ In fact, by the definition of 
+\begin_inset Formula $M$
+\end_inset
+
+, there is no preceding result, there exists a utility function 
+\begin_inset Formula $u^{*}(\cdot)$
+\end_inset
+
+ that represents 
+\begin_inset Formula $\succsim^{*}$
+\end_inset
+
+.
+ Then define 
+\begin_inset Formula $u:X\rightarrow\mathbb{R}$
+\end_inset
+
+ by 
+\begin_inset Formula $u(x_{n})=u^{*}(X_{m})$
+\end_inset
+
+ if 
+\begin_inset Formula $m\in M$
+\end_inset
+
+ and 
+\begin_inset Formula $x_{n}\in X_{m}$
+\end_inset
+
+.
+ It is easy to show that, by the transitivity, 
+\begin_inset Formula $u(\cdot)$
+\end_inset
+
+ represents 
+\begin_inset Formula $\succsim$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+1.C.1
+\end_layout
+
+\begin_layout Standard
+If 
+\begin_inset Formula $y\in C(\{x,y,z\})$
+\end_inset
+
+ , then according to the weak axiom, we must have 
+\begin_inset Formula $y\in C(\{x,y\})$
+\end_inset
+
+, which contradicts 
+\begin_inset Formula $C(\{x,y\})=\{x\}$
+\end_inset
+
+.
+ Hence, 
+\begin_inset Formula $y\notin C(\{x,y,z\})$
+\end_inset
+
+, i.e.
+ 
+\begin_inset Formula $C(\{x,y,z\})=\{x\},=\{z\},or=\{x,z\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+1.C.2
+\end_layout
+
+\begin_layout Standard
+If the weak axiom holds, since 
+\begin_inset Formula $x,y\in B$
+\end_inset
+
+, 
+\begin_inset Formula $x,y\in B^{'}$
+\end_inset
+
+, 
+\begin_inset Formula $x\in C(B)$
+\end_inset
+
+, and 
+\begin_inset Formula $y\in C(B^{'})$
+\end_inset
+
+, we must have 
+\begin_inset Formula $x\in C(B^{'})$
+\end_inset
+
+, which means 
+\begin_inset Formula $\{x,y\}\subset C(B^{'})$
+\end_inset
+
+.
+ Similarly, we have 
+\begin_inset Formula $\{x,y\}\subset C(B)$
+\end_inset
+
+.
+ Hence, the property in the question holds.
+ 
+\end_layout
+
+\begin_layout Standard
+Conversely, since 
+\begin_inset Formula $\{x,y\}\subset C(B^{'})$
+\end_inset
+
+, we have 
+\begin_inset Formula $x\in C(B^{'})$
+\end_inset
+
+, which is exactly the weak axiom.
+\end_layout
+
+\begin_layout Subsection*
+1.C.3
+\end_layout
+
+\begin_layout Standard
+In Definition 1.C.2, we define 
+\begin_inset Formula $\succsim^{*}$
+\end_inset
+
+ by 
+\end_layout
+
+\begin_layout Quotation
+\begin_inset Formula $x\succsim^{*}y\Leftrightarrow$
+\end_inset
+
+there is some 
+\begin_inset Formula $B\in\mathfrak{\mathcal{\mathscr{B}}}$
+\end_inset
+
+ such that 
+\begin_inset Formula $x,y\in B$
+\end_inset
+
+ and 
+\begin_inset Formula $x\in C(B)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Case
+If we have 
+\begin_inset Formula $x\succ^{*}y$
+\end_inset
+
+, there is some 
+\begin_inset Formula $B\in\mathfrak{\mathcal{\mathscr{B}}}$
+\end_inset
+
+ such that 
+\begin_inset Formula $x,y\in B$
+\end_inset
+
+, 
+\begin_inset Formula $x\in C(B)$
+\end_inset
+
+, and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $y\notin C(B)$
+\end_inset
+
+.
+ Hence, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $x\succsim^{*}y$
+\end_inset
+
+.
+ Suppose that we have 
+\begin_inset Formula $B^{'}\in\mathfrak{\mathcal{\mathscr{B}}}$
+\end_inset
+
+ such that 
+\begin_inset Formula $x,y\in B^{'}$
+\end_inset
+
+, 
+\begin_inset Formula $y\in C(B^{'})$
+\end_inset
+
+.
+ Then according to the weak axiom, we must have 
+\begin_inset Formula $x\in C(B^{'})$
+\end_inset
+
+, which means 
+\begin_inset Formula $y\succsim^{*}x$
+\end_inset
+
+ and contradicts with 
+\begin_inset Formula $x\succ^{*}y$
+\end_inset
+
+.
+ Therefore, 
+\begin_inset Formula $x\succ^{*}y\Rightarrow$
+\end_inset
+
+(
+\begin_inset Formula $x\succsim^{*}y$
+\end_inset
+
+ but not 
+\begin_inset Formula $y\succsim^{*}x$
+\end_inset
+
+) 
+\begin_inset Formula $\Rightarrow x\succ^{**}y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Case
+If we have 
+\begin_inset Formula $x\succ^{**}y$
+\end_inset
+
+, there is some 
+\begin_inset Formula $B\in\mathfrak{\mathcal{\mathscr{B}}}$
+\end_inset
+
+ such that 
+\begin_inset Formula $x,y\in B$
+\end_inset
+
+, 
+\begin_inset Formula $x\in C(B)$
+\end_inset
+
+, and there is not any 
+\begin_inset Formula $B\in\mathfrak{\mathcal{\mathscr{B}}}$
+\end_inset
+
+ such that 
+\begin_inset Formula $x,y\in B$
+\end_inset
+
+, 
+\begin_inset Formula $y\in C(B)$
+\end_inset
+
+.
+ This means 
+\begin_inset Formula $x\succ^{*}y$
+\end_inset
+
+.
+ Hence, 
+\begin_inset Formula $x\succ^{**}y\Rightarrow x\succ^{*}y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Therefore, 
+\begin_inset Formula $x\succ^{**}y\Leftrightarrow x\succ^{*}y$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The relation 
+\begin_inset Formula $\succ^{*}$
+\end_inset
+
+ need not be transitive, as shown by the following example.
+ Define 
+\begin_inset Formula $X=\{x,y,z\}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathscr{B}=\{\{x,y\},\{y,x\}\}$
+\end_inset
+
+, 
+\begin_inset Formula $C(\{y,z\})=\{y\}$
+\end_inset
+
+ and 
+\begin_inset Formula $C(\{x,y\})=\{x\}$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $x\succ^{*}y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\succ^{*}z$
+\end_inset
+
+.
+ But we do not have 
+\begin_inset Formula $x\succsim^{*}z$
+\end_inset
+
+ (because neither of the two sets in 
+\begin_inset Formula $\mathscr{B}$
+\end_inset
+
+ includes 
+\begin_inset Formula $\{x,z\}$
+\end_inset
+
+) and hence we do not have 
+\begin_inset Formula $x\succ*z$
+\end_inset
+
+ either.
+\end_layout
+
+\begin_layout Standard
+Consider 
+\begin_inset Formula $X=\{x,y,z...\}$
+\end_inset
+
+, 
+\begin_inset Formula $x\succ^{*}y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\succ^{*}z$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $\mathscr{B}$
+\end_inset
+
+ includes all three-element subsets of 
+\begin_inset Formula $X$
+\end_inset
+
+, then we have 
+\begin_inset Formula $B=\{x,y,z\}\in\mathscr{B}$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $x\succ^{*}y$
+\end_inset
+
+ and 
+\begin_inset Formula $y\succ^{*}z$
+\end_inset
+
+, 
+\begin_inset Formula $y,z\notin C(B)$
+\end_inset
+
+.
+ Therefore, we must have 
+\begin_inset Formula $x=C(B)$
+\end_inset
+
+ (
+\begin_inset Formula $C(B)\neq\varnothing$
+\end_inset
+
+).
+ So, 
+\begin_inset Formula $x\succ^{*}z$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection*
+1.D.1
+\end_layout
+
+\begin_layout Standard
+If we let 
+\begin_inset Formula $\mathscr{B}$
+\end_inset
+
+ consist of only one-element sets and 
+\begin_inset Formula $C(\{X_{i}\})=X_{i}$
+\end_inset
+
+ for all 
+\begin_inset Formula $X_{i}\in X$
+\end_inset
+
+, then any rational preference relation of X rationalizes 
+\begin_inset Formula $C(\cdot)$
+\end_inset
+
+.
+ For example, 
+\begin_inset Formula $X=\{x,y\}$
+\end_inset
+
+, 
+\begin_inset Formula $\mathscr{B}=\{\{x\},\{y\}\}$
+\end_inset
+
+, 
+\begin_inset Formula $C(\{x\})=\{x\}$
+\end_inset
+
+, and 
+\begin_inset Formula $C(\{y\})=\{y\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+1.D.2 
+\end_layout
+
+\begin_layout Standard
+According to 1.B.5, let 
+\begin_inset Formula $u(\cdot)$
+\end_inset
+
+ be a utility representation of 
+\begin_inset Formula $\succsim$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $X$
+\end_inset
+
+ is finite, for any 
+\begin_inset Formula $B\subset X$
+\end_inset
+
+ with 
+\begin_inset Formula $B\neq\varnothing$
+\end_inset
+
+, there exists 
+\begin_inset Formula $x\in B$
+\end_inset
+
+ such that 
+\begin_inset Formula $u(x)\geq u(y)$
+\end_inset
+
+ for all 
+\begin_inset Formula $y\in B$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $x\in C^{*}(B,\succsim)$
+\end_inset
+
+ and hence 
+\begin_inset Formula $C^{*}(B,\succsim)\neq\varnothing$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+1.D.3
+\end_layout
+
+\begin_layout Standard
+According to 1.D.2, 
+\begin_inset Formula $C(\{x,y,z\})\neq\varnothing$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Case
+If 
+\begin_inset Formula $x\in C(\{x,y,z\})$
+\end_inset
+
+, it contradicts the equality 
+\begin_inset Formula $C(\{x,z\})=\{z\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Case
+If 
+\begin_inset Formula $y\in C(\{x,y,z\})$
+\end_inset
+
+, it contradicts the equality 
+\begin_inset Formula $C(\{x,y\})=\{x\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Case
+If 
+\begin_inset Formula $z\in C(\{x,y,z\})$
+\end_inset
+
+, it contradicts the equality 
+\begin_inset Formula $C(\{y,z\})=\{y\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Therefore, 
+\begin_inset Formula $(\mathscr{B},C(\cdot))$
+\end_inset
+
+ must violate the weak axiom.
+\end_layout
+
+\begin_layout Subsection*
+1.D.4
+\end_layout
+
+\begin_layout Standard
+For any 
+\begin_inset Formula $x\in C(B_{1}\cup B_{2})$
+\end_inset
+
+, we must have 
+\begin_inset Formula $x\succsim y$
+\end_inset
+
+ for any 
+\begin_inset Formula $y\in(B_{1}\cup B_{2})$
+\end_inset
+
+.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Hence, we have 
+\begin_inset Formula $x\succsim z_{i}$
+\end_inset
+
+ for any 
+\begin_inset Formula $z_{i}\in B_{i}$
+\end_inset
+
+, for 
+\begin_inset Formula $i=1,2$
+\end_inset
+
+.
+ Therefore, 
+\begin_inset Formula $x\in C(B_{1})$
+\end_inset
+
+ and 
+\begin_inset Formula $x\in C(B_{2})$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+ And because 
+\begin_inset Formula $C(B_{1})\subseteq B_{1}$
+\end_inset
+
+and 
+\begin_inset Formula $C(B_{2})\subseteq B_{2}$
+\end_inset
+
+, we have 
+\begin_inset Formula $(C(B_{1})\cup C(B_{2}))\subseteq(B_{1}\cup B_{2})$
+\end_inset
+
+.
+ Thus, 
+\begin_inset Formula $x\in C(C(B_{1})\cup C(B_{2}))$
+\end_inset
+
+ for any 
+\begin_inset Formula $x\in C(B_{1}\cup B_{2})$
+\end_inset
+
+, which means 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $C(B_{1}\cup B_{2})\subseteq C(C(B_{1})\cup C(B_{2}))$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+For any 
+\begin_inset Formula $y\in C(C(B_{1})\cup C(B_{2}))$
+\end_inset
+
+, we have 
+\begin_inset Formula $y\succsim x$
+\end_inset
+
+ for any 
+\begin_inset Formula $x\in(C(B_{1})\cup C(B_{2}))$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $\succsim$
+\end_inset
+
+ is transitive, we have 
+\begin_inset Formula $y\succsim x_{i}\succsim z_{i}$
+\end_inset
+
+ for any 
+\begin_inset Formula $x\in C(B_{i})$
+\end_inset
+
+ and 
+\begin_inset Formula $z_{i}\in B_{i}$
+\end_inset
+
+, 
+\begin_inset Formula $i=1,2$
+\end_inset
+
+.
+ Therefore, we have 
+\begin_inset Formula $C(C(B_{1})\cup C(B_{2}))\subseteq C(B_{1}\cup B_{2})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+1.D.5
+\end_layout
+
+\begin_layout Section*
+Chapter 2: Consumer Choice
+\end_layout
+
+\begin_layout Subsection*
+2.D.1
+\end_layout
+
+\begin_layout Standard
+Consider one unite of consumption in period 1 as numeraire.
+ And 
+\begin_inset Formula $p$
+\end_inset
+
+ is the relative price of one unite of consumption in period 2.
+ Let 
+\begin_inset Formula $c_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $c_{2}$
+\end_inset
+
+ denote consumption levels in period 1 and 2.
+ Then the Walrasian consumption budget is 
+\begin_inset Formula $\{x\in R_{+}^{2}:\thinspace x_{1}+px_{2}\leq w\}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+2.D.2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\{(x,h)\in R_{+}^{2}:\thinspace h\leq24,\thinspace px+h\leq24\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+2.D.3
+\end_layout
+
+\begin_layout Enumerate
+No.
+ 
+\begin_inset Formula $B_{p,w}$
+\end_inset
+
+consists of only two points, each of which is the intersection of the budget
+ line and an axis.
+\end_layout
+
+\begin_layout Enumerate
+For any 
+\begin_inset Formula $x,y\in B_{p,w}$
+\end_inset
+
+, we have 
+\begin_inset Formula $x,y\in X$
+\end_inset
+
+ , 
+\begin_inset Formula $px\leq w$
+\end_inset
+
+ and 
+\begin_inset Formula $py\leq w$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $\lambda\in[0,1]$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $X$
+\end_inset
+
+ is a convex set, we have 
+\begin_inset Formula $\lambda x+(1-\lambda)y\in X$
+\end_inset
+
+.
+ And 
+\begin_inset Formula $p(\lambda x+(1-\lambda)y)\leq\lambda w+(1-\lambda)w=w$
+\end_inset
+
+.
+ Therefore, we have 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\lambda x+(1-\lambda)y\in B_{p,w}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+2.D.4
+\end_layout
+
+\begin_layout Standard
+It is quite obvious.
+ Therefore the proof is omitted.
+\end_layout
+
+\begin_layout Subsection*
+2.E.1
+\end_layout
+
+\begin_layout Standard
+Simple calculations will prove that 
+\begin_inset Formula $x(p,w)$
+\end_inset
+
+ always satisfies homogeneity of degree zero.
+ However, unless 
+\begin_inset Formula $\beta=1$
+\end_inset
+
+, this demand function will not satisfy Walras' law.
+\end_layout
+
+\begin_layout Subsection*
+2.E.2
+\end_layout
+
+\begin_layout Enumerate
+The left hand side of the first formula:
+\begin_inset Formula 
+\[
+\sum_{l=1}^{L}b_{l}\varepsilon_{lk}+b_{k}=\sum_{l=1}^{L}\frac{p_{l}x_{l}}{w}\frac{p_{k}\partial x_{l}}{x_{l}\partial p_{k}}+\frac{p_{k}x_{k}}{w}=\sum_{l=1}^{L}\frac{p_{k}}{w}(\frac{p_{l}\partial x_{l}}{\partial p_{k}}+x_{k})=\frac{p_{k}}{w}\sum_{l=1}^{L}(\frac{p_{l}\partial x_{l}}{\partial p_{k}}+x_{k})=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+The left hand side of the second formula:
+\begin_inset Formula 
+\[
+\sum_{l=1}^{L}b_{l}\varepsilon_{lw}=\sum_{l=1}^{L}\frac{p_{l}x_{l}}{w}\frac{w\partial x_{l}}{x_{l}\partial w}=\sum_{l=1}^{L}p_{l}\frac{\partial x_{l}}{\partial w}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+2.E.3
+\end_layout
+
+\begin_layout Standard
+According to 2.E.2, we have
+\begin_inset Formula 
+\[
+D_{p}x(p,w)p+D_{w}x(p,w)w=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Premultiple the above equation using p.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p'D_{p}x(p,w)p+p'D_{w}x(p,w)w=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And because of Walras' law, we have 
+\begin_inset Formula $px(p,w)=w$
+\end_inset
+
+.
+ Differentiating both sides with respect to 
+\begin_inset Formula $w$
+\end_inset
+
+, we have
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p'D_{w}x(p,w)=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Finally, we have 
+\begin_inset Formula 
+\[
+p'D_{p}x(p,w)p=-w
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An interpretation is that, when all prices are doubled, in order for the
+ consumer to stay at the same consumption, it is necessary to increase his
+ wealth by 
+\begin_inset Formula $w$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+2.E.4
+\end_layout
+
+\begin_layout Standard
+By differentiating 
+\begin_inset Formula $x(p,\alpha w)=\alpha x(p,w)$
+\end_inset
+
+ with respect to 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ at 
+\begin_inset Formula $\alpha=1$
+\end_inset
+
+, we obtain 
+\begin_inset Formula $D_{w}x(p,w)w=x(p,w)$
+\end_inset
+
+.
+ Hence 
+\begin_inset Formula 
+\[
+\varepsilon_{lw}=\frac{\partial x_{l}}{\partial w}\frac{w}{x_{l}}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This means that an one-percent increase in wealth will increase the consumption
+ level for all goods by one percent.With this assumption, the Engel curve
+ is a ray going through 
+\begin_inset Formula $x(p,1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+2.E.5
+\end_layout
+
+\begin_layout Standard
+Since, 
+\begin_inset Formula $x(p,w)$
+\end_inset
+
+ is homogeneous of degree one with respect to 
+\begin_inset Formula $w$
+\end_inset
+
+ and homogeneous of degree zero and satisfies Walras' law, we have 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial x_{l}}{\partial w}w=x_{l}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\sum_{k=1}^{L}\frac{\partial x_{l}}{\partial p_{k}}p_{k}+\frac{\partial x_{l}}{\partial w}w=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\sum_{k=1}^{L}x_{k}p_{k}=w
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $\nicefrac{\partial x_{l}}{\partial p_{k}}=0$
+\end_inset
+
+ whenever 
+\begin_inset Formula $k\neq l$
+\end_inset
+
+, we can transform (0.2) into
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial x_{l}}{\partial p_{l}}p_{l}+\frac{\partial x_{l}}{\partial w}w=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+According to (0.1), 
+\begin_inset Formula $x_{l}$
+\end_inset
+
+ is linear in 
+\begin_inset Formula $w$
+\end_inset
+
+, i.e.
+ 
+\begin_inset Formula $x_{l}=A(p_{l})w$
+\end_inset
+
+.
+ Substituting (0.1) into (0.4), we have
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+x_{l}=-\frac{\partial x_{l}}{\partial p_{l}}p_{l}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This means that 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $A(p_{l})$
+\end_inset
+
+ is omogeneous of degree -1.
+ Therefore 
+\begin_inset Formula $x_{l}$
+\end_inset
+
+ can be written as 
+\begin_inset Formula $\frac{\alpha_{l}w}{p_{l}}$
+\end_inset
+
+.
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ And because of (0.3), we have 
+\begin_inset Formula $\sum_{k=1}^{L}\alpha_{k}=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+2.E.6
+\end_layout
+
+\begin_layout Standard
+Omitted.
+\end_layout
+
+\begin_layout Subsection*
+2.E.7
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\alpha w+x_{2}p_{2}=w
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x_{2}(p,w)=(1-\alpha)w/p_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It is homogeneous of degree zero.
+\end_layout
+
+\begin_layout Subsection*
+2.E.8
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{dln(x_{l})}{dln(p_{k})}=\frac{\frac{1}{x_{l}}dx_{l}}{\frac{1}{p_{k}}dp_{k}}=\frac{dx_{l}}{dp_{k}}\frac{p_{k}}{x_{l}}=\varepsilon_{lk}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varepsilon_{lw}=\frac{dln(x_{l})}{dln(w)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+2.F.1
+\end_layout
+
+\begin_layout Standard
+Since we consider only Walrasian demand functions, 
+\begin_inset Formula $C(\cdot)$
+\end_inset
+
+ must be single-valued.
+ Therefore Definition 1.C.1 is equivalent to the following statement:
+\end_layout
+
+\begin_layout Standard
+If for some 
+\begin_inset Formula $B\in\mathscr{B}$
+\end_inset
+
+ with 
+\begin_inset Formula $x,y\in B$
+\end_inset
+
+ we have 
+\begin_inset Formula $x\in C(B)$
+\end_inset
+
+, then for any 
+\begin_inset Formula $B'\in\mathscr{B}$
+\end_inset
+
+ with 
+\begin_inset Formula $y\in B$
+\end_inset
+
+ and 
+\begin_inset Formula $y\in C(B')$
+\end_inset
+
+, we must have 
+\begin_inset Formula $x\notin B'$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+And let 
+\begin_inset Formula $B$
+\end_inset
+
+ be defined as 
+\begin_inset Formula $\{x\in R_{+}^{L}:px\leq w\}$
+\end_inset
+
+, and 
+\begin_inset Formula $B'$
+\end_inset
+
+ 
+\begin_inset Formula $\{x\in R_{+}^{L}:p'x\leq w'\}$
+\end_inset
+
+.
+ Then it is easy to see that Definition 1.C.1 is equivalent to Definition
+ 2.F.1.
+\end_layout
+
+\begin_layout Subsection*
+2.F.2
+\end_layout
+
+\begin_layout Standard
+When we have 
+\begin_inset Formula $p^{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $w=8$
+\end_inset
+
+, both 
+\begin_inset Formula $x^{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $x^{3}$
+\end_inset
+
+ are available.
+ But the consumer chooses 
+\begin_inset Formula $x^{1}$
+\end_inset
+
+.
+ Therefore, 
+\begin_inset Formula $x^{1}$
+\end_inset
+
+ is revealed preferred to 
+\begin_inset Formula $x^{3}$
+\end_inset
+
+.
+ Similarily, 
+\begin_inset Formula $x^{3}$
+\end_inset
+
+ is revealed preferred to 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+, and 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ is revealed preferred to 
+\begin_inset Formula $x^{1}$
+\end_inset
+
+.
+ This violates transitivity.
+ Hence this situation is incompatiable with the existence of underlying
+ rational preference.
+\end_layout
+
+\begin_layout Subsection*
+2.F.3
+\end_layout
+
+\begin_layout Enumerate
+His behavior violates the waek axiom if 
+\begin_inset Formula 
+\[
+100*120+100y\leq100*100+100*100
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+100*100+80*100\leq100*120+80y
+\]
+
+\end_inset
+
+the first inequality implies that the Year 2 purchease is still affordable
+ in Year 1.
+ The second inequality implies that the Year 1 purchease is also affordable
+ in Year 2.
+ Then then weak axiom is violated if 
+\begin_inset Formula $y\in[75,80]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+The Year 2 purchease should be affordable in Year 1 and the Year 1 purchease
+ should be not affordable in Year 2.Then we have 
+\begin_inset Formula 
+\[
+100*120+100y\leq100*100+100*100
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+100*100+80*100>100*120+80y
+\]
+
+\end_inset
+
+hence, 
+\begin_inset Formula $y<75$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+The Year 1 purchease should be affordable in Year 2 and the Year 2 purchease
+ should be not affordable in Year 1.
+\begin_inset Formula 
+\[
+100*120+100y>100*100+100*100
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+100*100+80*100\leq100*120+80y
+\]
+
+\end_inset
+
+that is 
+\begin_inset Formula $y>80$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Neither the Year 1 purchease is affordable in Year 2 nor the Year 2 purchease
+ is affordable in Year 1.
+\begin_inset Formula 
+\[
+100*120+100y>100*100+100*100
+\]
+
+\end_inset
+
+and 
+\begin_inset Formula 
+\[
+100*100+80*100>100*120+80y
+\]
+
+\end_inset
+
+there is no solution at all.
+ So for all 
+\begin_inset Formula $y$
+\end_inset
+
+, we have enough information to justify exactly one of (a), (b) and (c).
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+The Y(needs more attention)
+\color inherit
+
+\begin_inset Formula 
+\[
+100*120+100y<100*100+100*100
+\]
+
+\end_inset
+
+hence 
+\begin_inset Formula $y<100$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+If the consumer is richer in Year 2, he/she would buy less inferior goods.
+\color inherit
+
+\begin_inset Formula 
+\[
+100*120+80y>100*100+100*100
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y<100
+\]
+
+\end_inset
+
+these two inequalities contradict.
+ Then if the consumer is poorer in Year 2, he/she would buy more inferior
+ goods.
+\begin_inset Formula 
+\[
+100*120+80y<100*100+100*100
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y>100
+\]
+
+\end_inset
+
+hence, 
+\begin_inset Formula $y>$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+2.F.4
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $L_{Q}<1$
+\end_inset
+
+, we have 
+\begin_inset Formula $p^{0}x^{1}<p^{0}x^{0}$
+\end_inset
+
+.
+ This means that when both 
+\begin_inset Formula $x^{0}$
+\end_inset
+
+and 
+\begin_inset Formula $x^{1}$
+\end_inset
+
+ are available, the consumer chooses 
+\begin_inset Formula $x^{0}$
+\end_inset
+
+.
+ We can conclude that 
+\begin_inset Formula $x^{0}$
+\end_inset
+
+ is revealed preferred to 
+\begin_inset Formula $x^{1}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+If 
+\begin_inset Formula $P_{Q}>1$
+\end_inset
+
+, we have 
+\begin_inset Formula $p^{1}x^{1}>p^{1}x^{0}$
+\end_inset
+
+.
+ This means that when both 
+\begin_inset Formula $x^{0}$
+\end_inset
+
+and 
+\begin_inset Formula $x^{1}$
+\end_inset
+
+ are available, the consumer chooses 
+\begin_inset Formula $x^{1}$
+\end_inset
+
+.
+ We can conclude that 
+\begin_inset Formula $x^{1}$
+\end_inset
+
+ is revealed preferred to 
+\begin_inset Formula $x^{0}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+To compare 
+\begin_inset Formula $x^{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $x^{1}$
+\end_inset
+
+, we must know when they are both availiable.
+ Neither 
+\begin_inset Formula $E_{q}>1$
+\end_inset
+
+ nor 
+\begin_inset Formula $E_{Q}<1$
+\end_inset
+
+ provides no such information.
+\end_layout
+
+\begin_layout Subsection*
+2.F.5
+\end_layout
+
+\begin_layout Standard
+It is too difficult.
+\end_layout
+
+\begin_layout Subsection*
+2.F.6
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $x(p,w)$
+\end_inset
+
+ is homogenuous of degree zero, without loss of generality, 
+\begin_inset Formula $x(p,w)$
+\end_inset
+
+ and 
+\begin_inset Formula $x(p',w')$
+\end_inset
+
+ can be rewritten as 
+\begin_inset Formula $x(p,w)$
+\end_inset
+
+ and 
+\begin_inset Formula $x(\frac{w}{w'}p',w)$
+\end_inset
+
+.
+ It is easy to see that the statement in Exercise 2.F.6 is equivalent to Definitio
+n 2.F.1 if 
+\begin_inset Formula $x(p,w)$
+\end_inset
+
+ is homogenuous of degree zero.
+\end_layout
+
+\begin_layout Subsection*
+2.F.7
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $x(p,w)$
+\end_inset
+
+ is homogenuous of degree zero, we have 
+\begin_inset Formula $D_{p}x(p,w)p+wD_{w}x(p,w)=0$
+\end_inset
+
+.
+ And because of Walras' law, we have 
+\begin_inset Formula $px(p,w)=w$
+\end_inset
+
+.
+ Therfore, 
+\begin_inset Formula 
+\[
+D_{p}x(p,w)p+px(p,w)D_{w}x(p,w)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+And as we know, 
+\begin_inset Formula $S(p,w)=D_{p}x(p,w)+D_{w}x(p,w)x(p,w)^{T}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Therefore, 
+\begin_inset Formula $S(p,w)p=D_{p}x(p,w)p+D_{w}x(p,w)x(p,w)^{T}p=D_{p}x(p,w)p+px(p,w)D_{w}x(p,w)=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+By Proposition 2.E.2 and 2.E.3, we have
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $p^{T}S(p,w)=p^{T}D_{p}x(p,w)+p^{T}D_{w}x(p,w)x(p,w)^{T}=p^{T}D_{p}x(p,w)+x(p,w)^{T}=0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+2.F.8
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+\hat{s}_{lk}(p,w) & = & \frac{p_{k}}{x_{l}(p,k)}s_{lk}(p,w)\\
+ & = & \frac{p_{k}}{x_{l}(p,k)}\frac{\partial x_{l}}{\partial p_{k}}(p,w)+\frac{p_{k}}{x_{l}(p,k)}\frac{\partial x_{l}}{\partial w}(p,w)x_{k}(p,w)\\
+ & = & \varepsilon_{lk}(p,w)+\frac{w}{x_{l}(p,w)}\frac{\partial x_{l}}{\partial w}(p,w)\frac{p_{k}x_{k}(p,w)}{w}\\
+ & = & \varepsilon_{lk}(p,w)+\varepsilon_{lw}(p,w)b_{k}(p,w)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+2.F.9
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+dd
+\end_layout
+
+\begin_layout Section*
+Chapter 3: Classical Demand Theory
+\end_layout
+
+\begin_layout Subsection*
+3.D.1
+\end_layout
+
+\begin_layout Standard
+Ommited
+\end_layout
+
+\begin_layout Subsection*
+3.D.2
+\end_layout
+
+\begin_layout Standard
+Ommited
+\end_layout
+
+\begin_layout Subsection*
+3.D.3
+\end_layout
+
+\begin_layout Enumerate
+We need to prove that 
+\begin_inset Formula $x(p,\alpha w)=\alpha x(p,w)$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $p'x(p,w)=w$
+\end_inset
+
+, we have 
+\begin_inset Formula $p'\alpha x(p,w)=\alpha w$
+\end_inset
+
+.
+ Hence, 
+\begin_inset Formula $\alpha x(p,w)\in B_{p,\alpha w}$
+\end_inset
+
+.
+ According to optimality and strict quasi-concavity, we have 
+\begin_inset Formula $u(x(p,\alpha w))>u(y),\forall y\in B_{p,\alpha w}$
+\end_inset
+
+ and 
+\begin_inset Formula $u(x(p,w))>u(z),\forall z\in B_{p,w}$
+\end_inset
+
+.
+ Because 
+\begin_inset Formula $u(\cdot)$
+\end_inset
+
+ is homogeneous of degree one, we have 
+\begin_inset Formula $u(\alpha x(p,w))>u(\alpha z)=u(y),\forall z\in B_{p,w}\exists y\in B_{p,\alpha w}$
+\end_inset
+
+.
+ Hence 
+\begin_inset Formula $x(p,\alpha w)=\alpha x(p,w)$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $v(p,w)=u(x(p,w))$
+\end_inset
+
+ and 
+\begin_inset Formula $x(p,\alpha w)=\alpha x(p,w)$
+\end_inset
+
+, we have 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $v(p,\alpha w)=\alpha v(p,w)$
+\end_inset
+
+.
+ Therefore, 
+\begin_inset Formula $x(p,w)=w\tilde{x}(p)$
+\end_inset
+
+, which means the wealth expansion path is a straight line through the origin
+ and the elasicities of demand with respect to wealth is 1.
+\end_layout
+
+\begin_layout Enumerate
+According to Roy's Identity, 
+\begin_inset Formula $x(p,w)=-\frac{\partial v/\partial p}{\partial v/\partial w}$
+\end_inset
+
+.
+ And since 
+\begin_inset Formula $v(p,w)$
+\end_inset
+
+ is homogeneous of degree one, 
+\begin_inset Formula $v(p,w)=w\tilde{v}(p)$
+\end_inset
+
+.
+ Hence, 
+\begin_inset Formula $x(p,w)=-\frac{\partial v/\partial p}{\partial v/\partial w}$
+\end_inset
+
+=-
+\begin_inset Formula $\frac{w\tilde{v}'(p)}{\tilde{v}(p)}=w\tilde{x}(p)$
+\end_inset
+
+, which menas 
+\begin_inset Formula $x(p,w)$
+\end_inset
+
+ is homogeneous of degree one.
+\end_layout
+
+\begin_layout Subsection*
+
+\color red
+3.D.4
+\end_layout
+
+\begin_layout Enumerate
+Let 
+\begin_inset Formula $e_{1}=(1,0,...,0)\in\mathbb{R}^{L}$
+\end_inset
+
+.
+ We shall prove that for every 
+\begin_inset Formula $p\in\mathbb{R}_{++}^{L}$
+\end_inset
+
+, 
+\begin_inset Formula $w\in\mathbb{R}$
+\end_inset
+
+, 
+\begin_inset Formula $\alpha\in\mathbb{R}$
+\end_inset
+
+, and 
+\begin_inset Formula $x\in(-\infty,\infty)\times\mathbb{R}_{++}^{L-1}$
+\end_inset
+
+, if 
+\begin_inset Formula $x=x(p,w)$
+\end_inset
+
+, then 
+\begin_inset Formula $x+\alpha e_{1}=x(p,w+\alpha)$
+\end_inset
+
+.
+ Note first that, by 
+\begin_inset Formula $p_{1}=1$
+\end_inset
+
+, 
+\begin_inset Formula $p(x+\alpha e_{1})\leq w+\alpha$
+\end_inset
+
+, that is, 
+\begin_inset Formula $x+\alpha e_{1}$
+\end_inset
+
+ is affordable at 
+\begin_inset Formula $(p,w+\alpha e_{1})$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $y\in\mathbb{R}_{+}^{L}$
+\end_inset
+
+ and 
+\begin_inset Formula $p'y\le w+\alpha$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $p'(y-\alpha e_{1})\leq w$
+\end_inset
+
+.
+ Hence 
+\begin_inset Formula $x\succsim y-\alpha e_{1}$
+\end_inset
+
+.
+ Thus, by the quasilinearity, 
+\begin_inset Formula $x+\alpha e_{1}\succsim y$
+\end_inset
+
+.
+ Hence, 
+\begin_inset Formula $x+\alpha e_{1}=x(p,w+\alpha)$
+\end_inset
+
+.
+ Therefore, for every 
+\begin_inset Formula $l\in(2,...,L)$
+\end_inset
+
+, 
+\begin_inset Formula $w\in\mathbb{R}$
+\end_inset
+
+, and 
+\begin_inset Formula $w'\in\mathbb{R}$
+\end_inset
+
+, 
+\begin_inset Formula $x_{l}(p,w)=x_{l}(p,w')$
+\end_inset
+
+.
+ That is, the Walrasian demand functions for goods 2,...,L are independent
+ of wealth.
+ As for good 1, we have 
+\begin_inset Formula $\partial x(p,w)/\partial w=1$
+\end_inset
+
+ for every 
+\begin_inset Formula $(p,w)$
+\end_inset
+
+.
+ That is, any additional amount of money is spent on good 1.
+\end_layout
+
+\begin_layout Enumerate
+Define 
+\begin_inset Formula $\phi(p)=u(x(p,0))$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $x(p,w)=x(p,0)+we_{1}$
+\end_inset
+
+ and this preference relation can be represented by a utility function of
+ the quasilinear form 
+\begin_inset Formula $u(x)=x_{1}+\phi(x_{2},...,x_{L})$
+\end_inset
+
+, we have 
+\begin_inset Formula 
+\begin{eqnarray*}
+v(p,w) & = & u(x(p,w))\\
+ & = & x_{1}(p,w)+\tilde{u}(x_{2}(p,w),...,x_{L}(p,w))\\
+ & = & w+x_{1}(p,0)+\tilde{u}(x_{2}(p,0),...,x_{L}(p,0))\\
+ & = & w+u(x(p,0))=w+\phi(p)
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+The non-negativity constraint is binding if and only if 
+\begin_inset Formula $p_{2}x_{2}(p,0)>w$
+\end_inset
+
+.
+ Note that 
+\begin_inset Formula $x(p,0)=(\eta')^{-1}(p_{2})$
+\end_inset
+
+, because 
+\begin_inset Formula $p_{1}=1$
+\end_inset
+
+.
+ Hence the constraint is binding if and only if 
+\begin_inset Formula $p_{2}(\eta')^{-1}(p_{2})>w$
+\end_inset
+
+.
+ If so, the Walrasian demand is given by 
+\begin_inset Formula $x(p,w)=(0,w/p_{2})$
+\end_inset
+
+.
+ Thus, as 
+\begin_inset Formula $w$
+\end_inset
+
+ changes, the consumption level of the first good is unchanged and the comsumpti
+on of the second good changes at rate 
+\begin_inset Formula $1/p_{2}$
+\end_inset
+
+ with 
+\begin_inset Formula $w$
+\end_inset
+
+ until the non-negativity constraint no longer binds.
+\end_layout
+
+\begin_layout Subsection*
+3.E.2
+\end_layout
+
+\begin_layout Standard
+Omitted.
+\end_layout
+
+\begin_layout Subsection*
+3.E.4
+\end_layout
+
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $x,y\in h(p,u)$
+\end_inset
+
+.
+ Then according to optimality, we have 
+\begin_inset Formula $x,y\succsim z,\forall u(z)\leq u_{0}$
+\end_inset
+
+.
+ Since the preference 
+\begin_inset Formula $\succsim$
+\end_inset
+
+ is convex, 
+\begin_inset Formula $\alpha x+(1-\alpha)y\succsim z,\forall\alpha\in(0,1)$
+\end_inset
+
+.
+ And because 
+\begin_inset Formula $p(\alpha x+(1-\alpha)y)=p'x=p'y$
+\end_inset
+
+, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\alpha x+(1-\alpha)y\in h(p,u)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $x,y\in h(p,u)$
+\end_inset
+
+.
+ If the preference is strictly convex, we have 
+\begin_inset Formula $\alpha x+(1-\alpha)y\succ z,\forall u(z)\leq u_{0}.$
+\end_inset
+
+And because 
+\begin_inset Formula $p(\alpha x+(1-\alpha)y)=p'x=p'y$
+\end_inset
+
+, 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\alpha x+(1-\alpha)y$
+\end_inset
+
+ is strictly better than 
+\begin_inset Formula $h(p,u)$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $\succsim$
+\end_inset
+
+ is continuous, we can find a 
+\begin_inset Formula $\beta\in(0,1)$
+\end_inset
+
+, such that 
+\begin_inset Formula $\beta(p(\alpha x+(1-\alpha)y))\succ z,\forall u(z)\leq u_{0}$
+\end_inset
+
+.
+ This contradicts the optimality of 
+\begin_inset Formula $h(p,u)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+3.G.1
+\end_layout
+
+\begin_layout Standard
+Since the identity 
+\begin_inset Formula $v(p,e(pu))=u$
+\end_inset
+
+ hods for all 
+\begin_inset Formula $p$
+\end_inset
+
+, differentiation with respect to 
+\begin_inset Formula $p$
+\end_inset
+
+ yields
+\begin_inset Formula 
+\[
+\triangledown_{p}v(p,e(p,e))+(\partial v(p,e(p,u)/\partial w)\triangledown_{p}e(p,u)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By Roy's identity,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(\partial v(p,e(p,u))\partial w)(-x(p,e(p,u))+\triangledown_{p}e(p,u))=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By 
+\begin_inset Formula $\partial v(p,e(p,u))/\partial w>0$
+\end_inset
+
+ and 
+\begin_inset Formula $h(p,u)=x(p,e(p,u))$
+\end_inset
+
+, we obtain 
+\begin_inset Formula $h(p,u)=\triangledown_{p}e(p,u)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+3.G.2
+\end_layout
+
+\begin_layout Standard
+Omitted
+\end_layout
+
+\begin_layout Subsection*
+3.G.15
+\end_layout
+
+\begin_layout Standard
+(a) we formulate the utility maximization problem as follows
+\begin_inset Formula 
+\[
+\max2x_{1}^{1/2}+4x_{2}^{1/2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+s.t.\thinspace p_{1}x_{1}+p_{2}x_{2}=w
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathcal{L}=2x_{1}^{1/2}+4x_{2}^{1/2}+\lambda(w-p_{1}x_{1}-p_{2}x_{2})
+\]
+
+\end_inset
+
+F.O.C.s
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x_{1}^{-1/2}=p_{1}\lambda
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2x_{2}^{-1/2}=p_{2}\lambda
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+p_{1}x_{1}+p_{2}x_{2}=w
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x_{1}(p_{1},p_{2},w)=\frac{p_{2}w}{p_{1}(p_{2}+4p_{1})}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x_{2}(p_{1},p_{2},w)=\frac{4p_{1}w}{p_{2}(p_{2}+4p_{1})}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(b) we can formulate the expenditure minimization problem as follows
+\begin_inset Formula 
+\[
+\max p_{1}x_{1}+p_{2}x_{2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+s.t.\thinspace2x_{1}^{1/2}+4x_{2}^{1/2}=u
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathcal{L}=p_{1}x_{1}-p_{2}x_{2}+\mu(u-2x_{1}^{1/2}-4x_{2}^{1/2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+F.O.C.s
+\begin_inset Formula 
+\[
+p_{1}=\mu x_{1}^{-1/2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+p_{2}=2\mu x_{2}^{-1/2}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+2x_{1}^{1/2}+4x_{2}^{1/2}=u
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+h(p_{1},p_{2},u)=((\frac{p_{2}u}{2(4p_{1}+p_{2})})^{2},(\frac{p_{1}u}{4p_{1}+p_{2}})^{2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(c) 
+\begin_inset Formula 
+\[
+e(p,u)=p_{1}(\frac{p_{2}u}{2(4p_{1}+p_{2})})^{2}+p_{2}(\frac{p_{1}u}{4p_{1}+p_{2}})^{2}=\frac{p_{1}p_{2}u^{2}}{4(4p_{1}+p_{2})}
+\]
+
+\end_inset
+
+It is easy to show that 
+\begin_inset Formula $h(p,u)=\triangledown_{p}e(p,u)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(d) 
+\begin_inset Formula 
+\[
+v(p,w)=\frac{2\sqrt{w(p_{2}+4p_{1})}}{\sqrt{p_{1}p_{2}}}
+\]
+
+\end_inset
+
+It is easy to verify Roy's identity.
+\end_layout
+
+\begin_layout Section*
+Chapter 5: Production
+\end_layout
+
+\begin_layout Subsection*
+5.B.3
+\end_layout
+
+\begin_layout Standard
+Firstly, we suppose that 
+\begin_inset Formula $Y$
+\end_inset
+
+ is convex.
+ Let 
+\begin_inset Formula $z,z'\in\mathbb{R}_{+}^{L-1}$
+\end_inset
+
+ and 
+\begin_inset Formula $\alpha\in[0,1]$
+\end_inset
+
+, then 
+\begin_inset Formula $(-z,f(z))\in Y$
+\end_inset
+
+ and 
+\begin_inset Formula $(-z',f(z'))\in Y$
+\end_inset
+
+.
+ By the convexity, 
+\begin_inset Formula 
+\[
+(-(\alpha z+(1-\alpha)z'),\alpha f(z)+(1-\alpha)f(z'))\in Y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus, 
+\begin_inset Formula $\alpha f(z)+(1-\alpha)f(z')\leq f(\alpha z+(1-\alpha)z')$
+\end_inset
+
+.
+ Hence, 
+\begin_inset Formula $f(z)$
+\end_inset
+
+ is concave.
+\end_layout
+
+\begin_layout Standard
+Second, we suppose that 
+\begin_inset Formula $f(z)$
+\end_inset
+
+ is concave.
+ Then for any 
+\begin_inset Formula $(-z,q)$
+\end_inset
+
+ and 
+\begin_inset Formula $(-z',q')$
+\end_inset
+
+ and 
+\begin_inset Formula $\alpha\in[0,1]$
+\end_inset
+
+, then 
+\begin_inset Formula $q\leq f(z)$
+\end_inset
+
+ and 
+\begin_inset Formula $q'\leq f(z')$
+\end_inset
+
+.
+ Hence 
+\begin_inset Formula 
+\[
+\alpha q+(1-\alpha)q'\leq\alpha f(z)+(1-\alpha)f(z')
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+By the concavity,
+\begin_inset Formula 
+\[
+\alpha f(z)+(1-\alpha)f(z')\leq f(\alpha z+(1-\alpha)z')
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus,
+\begin_inset Formula 
+\[
+\alpha q+(1-\alpha)q'\leq f(\alpha z+(1-\alpha)z')
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hence
+\begin_inset Formula 
+\[
+(-(\alpha z+(1-\alpha)z'),\alpha q+(1-\alpha)q')=\alpha(-z,q)+(1-\alpha)(-z',q')\in Y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Therefore 
+\begin_inset Formula $Y$
+\end_inset
+
+ ia convex.
+\end_layout
+
+\begin_layout Subsection*
+5.C.1
+\end_layout
+
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $Y$
+\end_inset
+
+ exhibits nondecreasing returns to scale.
+ And for nonnegative 
+\begin_inset Formula $p$
+\end_inset
+
+, we have 
+\begin_inset Formula $\pi(p)=py(p)$
+\end_inset
+
+.
+ Suppose 
+\begin_inset Formula $\pi(p)$
+\end_inset
+
+ is a finite positive number.
+ Then according to the definition of nondecreasing returns to scale, 
+\begin_inset Formula $\forall\alpha\geqq1$
+\end_inset
+
+, we have 
+\begin_inset Formula $\alpha y(p)\in Y$
+\end_inset
+
+.
+ Then we can have a higher profit 
+\begin_inset Formula $\alpha\pi(p)=\alpha py(p)$
+\end_inset
+
+, which will be infinite as 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ increase infinitely.
+\end_layout
+
+\begin_layout Standard
+Suppose 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\pi(p)=py(p)\le0$
+\end_inset
+
+, then there is no incentive to change.
+ Therefore, we have either 
+\begin_inset Formula $\pi(p)=+\infty$
+\end_inset
+
+ or 
+\begin_inset Formula $\pi(p)\le0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+5.C.11
+\end_layout
+
+\begin_layout Standard
+Assume that 
+\begin_inset Formula $c(\cdot)$
+\end_inset
+
+ is twice continuously differentiable.
+ By Proposition 5.C.2(vi), 
+\begin_inset Formula $z(\cdot)$
+\end_inset
+
+ is continuously differentiable and 
+\begin_inset Formula 
+\[
+\partial z_{l}(w,q)/\partial q=(\partial/\partial q)(\partial c(w,q)/\partial w_{l})=(\partial/\partial w_{l})(\partial c(w,q)/\partial q)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hence 
+\begin_inset Formula $\partial z_{l}(w,q)/\partial q>0$
+\end_inset
+
+ if and only if 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $(\partial/\partial w_{l})(\partial c(w,q)/\partial q)>0$
+\end_inset
+
+, that is, marginal cost is increasing in 
+\begin_inset Formula $w_{l}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+5.D.1
+\end_layout
+
+\begin_layout Standard
+We shall use the differentiablility of 
+\begin_inset Formula $c(\cdot)$
+\end_inset
+
+ only at 
+\begin_inset Formula $\bar{q}$
+\end_inset
+
+.
+ The everywhere differentiability is not necessary.
+ By definition,
+\begin_inset Formula 
+\[
+AC'(q)=\frac{d}{dq}(\frac{c(\bar{q})}{\bar{q}})=\frac{c'(\bar{q})\bar{q}-c(\bar{q})}{\bar{q}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus, if the average cost is minimized at 
+\begin_inset Formula $q=\bar{q}$
+\end_inset
+
+, then 
+\begin_inset Formula $AC'(\bar{q})=0$
+\end_inset
+
+ and hence 
+\begin_inset Formula $c'(\bar{q})=c(\bar{q})/\bar{q}=AC(\bar{q})$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+5.E.5
+\end_layout
+
+\begin_layout Standard
+(a) Formulate the profit maximizing problem as follows.
+\begin_inset Formula 
+\[
+\min\sum_{j=1}^{J}\alpha q_{j}+\beta_{j}q_{j}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+s.t.\sum q_{j}=q
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Solving this problem, we have 
+\begin_inset Formula 
+\[
+q_{j}=\frac{q/\beta_{j}}{\sum_{h}^{J}1/\beta_{h}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(b)(c) In both cases, it is cost-minimizing to concentrate on plants with
+ the smallest 
+\begin_inset Formula $\beta_{j}<0$
+\end_inset
+
+, because the average cost is decreasing at the highest rate at such plants.
+\end_layout
+
+\begin_layout Subsection*
+5.F.1
+\end_layout
+
+\begin_layout Standard
+Omitted.
+\end_layout
+
+\begin_layout Section*
+Chapter 6: Choice under Uncertainty
+\end_layout
+
+\begin_layout Subsection*
+6.B.1
+\end_layout
+
+\begin_layout Standard
+(a) If 
+\begin_inset Formula $\alpha L+(1-\alpha)L''\alpha L'+(1-\alpha)L''$
+\end_inset
+
+, we have 
+\begin_inset Formula $\alpha L+(1-\alpha)L''\succeq\alpha L'+(1-\alpha)L''$
+\end_inset
+
+ and not 
+\begin_inset Formula $\alpha L+(1-\alpha)L''\preceq\alpha L'+(1-\alpha)L''$
+\end_inset
+
+.
+ According to the independent axiom, this is equivalent to 
+\begin_inset Formula $L\succeq L'$
+\end_inset
+
+ and not 
+\begin_inset Formula $L\preceq L'$
+\end_inset
+
+, which amounts to 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $L\succ L'$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+If 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $L\succ L'$
+\end_inset
+
+, 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+we have 
+\begin_inset Formula $L\succeq L'$
+\end_inset
+
+ and not 
+\begin_inset Formula $L\preceq L'$
+\end_inset
+
+.
+ According to the independent axiom, this is equivalent to
+\begin_inset Formula $\alpha L+(1-\alpha)L''\succeq\alpha L'+(1-\alpha)L''$
+\end_inset
+
+ and not 
+\begin_inset Formula $\alpha L+(1-\alpha)L''\preceq\alpha L'+(1-\alpha)L''$
+\end_inset
+
+, which amounts to 
+\begin_inset Formula $\alpha L+(1-\alpha)L''\succ\alpha L'+(1-\alpha)L''$
+\end_inset
+
+, thus completing the proof of the first claim.
+\end_layout
+
+\begin_layout Standard
+The second claim can be proved in the same way.
+\end_layout
+
+\begin_layout Standard
+For the las part of the exercise, we use the independent axiom twice.
+ Because 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $L\succ L'$
+\end_inset
+
+, we have 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\alpha L+(1-\alpha)L''\mathbf{\succ}\alpha L'+(1-\alpha)L''$
+\end_inset
+
+.
+ Because 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $L''\succ L'''$
+\end_inset
+
+, we have 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\alpha L'+(1-\alpha)L''\succ\alpha L'+(1-\alpha)L'''$
+\end_inset
+
+.
+ Combining them, we have 
+\begin_inset Formula $\alpha L+(1-\alpha)L''\succ\alpha L'+(1-\alpha)L'''$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+6.B.2
+\end_layout
+
+\begin_layout Standard
+We assume that the preference relation 
+\begin_inset Formula $\succeq$
+\end_inset
+
+is represented by an v.N.M expected utility function 
+\begin_inset Formula $U(L)=\sum_{n}u_{n}p_{n}\forall L=(p_{1},...,p_{n})\in\mathscr{L}$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $L=(p_{1},...,p_{n})\in\mathscr{L}$
+\end_inset
+
+, 
+\begin_inset Formula $L'=(p'_{1},...,p'_{n})\in\mathscr{L}$
+\end_inset
+
+, 
+\begin_inset Formula $L''=(p''_{1},...,p''_{n})\in\mathscr{L}$
+\end_inset
+
+, and 
+\begin_inset Formula $\alpha\in(0,1)$
+\end_inset
+
+.
+ Then 
+\begin_inset Formula $L\succeq L'$
+\end_inset
+
+ if and only if 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sum_{n}u_{n}p_{n}\geq\sum_{n}u_{n}p'_{n}$
+\end_inset
+
+.
+ This inequality is equivalent to 
+\begin_inset Formula 
+\[
+\alpha(\sum_{n}u_{n}p_{n})+(1-\alpha)\sum_{n}u_{n}p''_{n}\geq\alpha(\sum_{n}u_{n}p'_{n})+(1-\alpha)\sum_{n}u_{n}p''_{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This latter inequality holds if and only if 
+\begin_inset Formula $\alpha L+(1-\alpha)L'\succeq\alpha L'+(1-\alpha)L''$
+\end_inset
+
+.
+ Hence 
+\begin_inset Formula $L\succeq L'$
+\end_inset
+
+ if and only if 
+\begin_inset Formula $\alpha L+(1-\alpha)L'\succeq\alpha L'+(1-\alpha)L''$
+\end_inset
+
+.
+ Thus the indenpence axiom holds.
+\end_layout
+
+\begin_layout Subsection*
+6.B.3
+\end_layout
+
+\begin_layout Standard
+Since the set 
+\begin_inset Formula $C$
+\end_inset
+
+ of outcomes id finite, there are best and worst outcomes in 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ Let 
+\begin_inset Formula $\bar{L}$
+\end_inset
+
+ be the lottery that yields a particcular best outcome with probability
+ one and 
+\begin_inset Formula $\underbar{L}$
+\end_inset
+
+ be the lottery that yields a particular worst outcome with probability
+ one.
+ We shall now prove that 
+\begin_inset Formula $\bar{L}\succeq L\succeq\underline{L}\forall L\in\mathscr{L}$
+\end_inset
+
+ by applying the following lemma:
+\end_layout
+
+\begin_layout Lemma*
+Let 
+\begin_inset Formula $L_{0},L_{1},...,L_{K}$
+\end_inset
+
+be 
+\begin_inset Formula $(1+K)$
+\end_inset
+
+ lotteries and 
+\begin_inset Formula $(\alpha_{1},...\alpha_{K})\geq0$
+\end_inset
+
+ be probabilities with 
+\begin_inset Formula $\sum_{k=1}^{K}\alpha_{k}=1$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $L_{k}\geq L_{0}\forall k$
+\end_inset
+
+, then 
+\begin_inset Formula $\sum_{k=1}^{K}\alpha_{k}L_{k}\succeq L_{0}$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $L_{0}\geq L_{k}\forall k$
+\end_inset
+
+, then 
+\begin_inset Formula $L_{0}\succeq\sum_{k=1}^{K}\alpha_{k}L_{k}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Proof
+We shall prove the lemma by induction on 
+\begin_inset Formula $K$
+\end_inset
+
+.
+ If 
+\begin_inset Formula $K=1$
+\end_inset
+
+, there is nothing to prove.
+ So let 
+\begin_inset Formula $K>1$
+\end_inset
+
+ and suppose that the lemma is true for 
+\begin_inset Formula $K-1$
+\end_inset
+
+.
+ Assume that 
+\begin_inset Formula $L_{k}\geq L_{0}\forall k$
+\end_inset
+
+.
+ By the definition of a compound lottery, 
+\color red
+
+\begin_inset Formula 
+\[
+\sum_{k=1}^{K}\alpha_{k}L_{k}=(1-\alpha_{K})\sum_{k=1}^{K-1}\frac{\alpha_{k}}{1-\alpha_{K}}L_{k}+\alpha_{K}L_{K}
+\]
+
+\end_inset
+
+
+\color inherit
+By the induction hypothesis, 
+\begin_inset Formula $\sum_{k=1}^{K-1}\frac{\alpha_{k}}{1-\alpha_{K}}L_{k}\succeq L_{0}$
+\end_inset
+
+.
+ Hence, as our first application of the indenpendence axiom, we obtain
+\begin_inset Formula 
+\[
+(1-\alpha_{K})\sum_{k=1}^{K-1}\frac{\alpha_{k}}{1-\alpha_{K}}L_{k}+\alpha_{K}L_{K}\succeq(1-\alpha_{K})L_{0}+\alpha_{K}L_{K}
+\]
+
+\end_inset
+
+Applying the axiom once again, we obtain
+\begin_inset Formula 
+\[
+(1-\alpha_{K})L_{0}+\alpha_{K}L_{K}\succeq(1-\alpha_{K})L_{0}+\alpha_{K}L_{0}=L_{0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Proof
+Hence, by the transivity, 
+\begin_inset Formula $\sum_{k=1}^{K}\alpha_{k}L_{k}\succeq L_{0}$
+\end_inset
+
+.
+ The first statement is thus verified.
+ The case of 
+\begin_inset Formula $L_{0}\succeq L_{k}$
+\end_inset
+
+ can similarly be verified.
+\end_layout
+
+\begin_layout Proof
+Now, for each 
+\begin_inset Formula $n$
+\end_inset
+
+, let 
+\begin_inset Formula $L^{n}$
+\end_inset
+
+ be the lottery that yields outcome 
+\begin_inset Formula $n$
+\end_inset
+
+ with probability one.
+ Then 
+\begin_inset Formula $\bar{L}\succeq L^{n}$
+\end_inset
+
+ because both of them can be indentified with sure outcomes.
+ Let 
+\begin_inset Formula $L=(p_{1},...,p_{n})$
+\end_inset
+
+ be any lottery, then 
+\begin_inset Formula $L=\sum_{n}p_{n}L^{n}$
+\end_inset
+
+.
+ Thus, 
+\begin_inset Formula $\bar{L}\succeq L$
+\end_inset
+
+ from the above lemma.
+ The same argument can be used to prove that 
+\begin_inset Formula $L\succeq\underline{L}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection*
+6.C.1
+\end_layout
+
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $\alpha^{*}>0$
+\end_inset
+
+, we have 
+\begin_inset Formula 
+\[
+u'(w-\alpha^{*}q)=\frac{\pi(1-q)}{(1-\pi)q}u'(w-D+\alpha^{*}(1-q))
+\]
+
+\end_inset
+
+Because 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $q>\pi$
+\end_inset
+
+, we have 
+\begin_inset Formula $\frac{\pi(1-q)}{(1-\pi)q}<1$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $u'(\cdot)$
+\end_inset
+
+ is strictly decreasing, we have 
+\begin_inset Formula 
+\[
+w-\alpha^{*}q>w-D+\alpha^{*}(1-q)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Thus 
+\begin_inset Formula $\alpha^{*}<D$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+Chapter 8: Simultaneous-Move Games
+\end_layout
+
+\begin_layout Subsection*
+8.B.4
+\end_layout
+
+\begin_layout Standard
+Call the set of strategies for player 
+\begin_inset Formula $i$
+\end_inset
+
+ that remain after 
+\begin_inset Formula $N$
+\end_inset
+
+ rounds of deletion of strictly dominated strategies 
+\begin_inset Formula $\sum_{i}^{N}$
+\end_inset
+
+.
+ Suppose 
+\begin_inset Formula $s_{i}\in\sum_{i}^{N}$
+\end_inset
+
+ is a strictly dominated strategy given the strategies 
+\begin_inset Formula $\sum_{-i}^{N}$
+\end_inset
+
+ of the other players.
+ Therefore, there exists a strategy 
+\begin_inset Formula $s_{i}^{*}\in\sum_{i}^{N}$
+\end_inset
+
+, which strictly dominates 
+\begin_inset Formula $s_{i}$
+\end_inset
+
+ but it noe a strictly dominated strategy given 
+\begin_inset Formula $\sum_{-i}^{N}$
+\end_inset
+
+.
+ Suppose further that 
+\begin_inset Formula $s_{i}$
+\end_inset
+
+ will not be deleted in the 
+\begin_inset Formula $N+1$
+\end_inset
+
+ round.
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $s_{i}$
+\end_inset
+
+ was strictly dominated by 
+\begin_inset Formula $s_{i}^{*}$
+\end_inset
+
+ given 
+\begin_inset Formula $\sum_{-i}^{N}$
+\end_inset
+
+, it will still be strictly dominated by 
+\begin_inset Formula $s_{i}^{*}$
+\end_inset
+
+ given 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sum_{i}^{N+1}\subseteq\sum_{i}^{N}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+, and 
+\begin_inset Formula $s_{i}^{*}\in\sum_{i}^{N+1}$
+\end_inset
+
+.
+ Thus the stratefy 
+\begin_inset Formula $s_{i}$
+\end_inset
+
+ will be deleted in the next round.
+ 
+\end_layout
+
+\begin_layout Standard
+(This is not the case for a process of iterated deletion of weakly dominated
+ strategies.)
+\end_layout
+
+\begin_layout Subsection*
+8.B.7
+\end_layout
+
+\begin_layout Standard
+Suppose in negation that 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+ is a strictly dominant mixed strategy of player 
+\begin_inset Formula $i$
+\end_inset
+
+, and suppose, 
+\begin_inset Formula $s_{i}^{1},...,s_{i}^{N}$
+\end_inset
+
+ are the pure strategies that are played with positive probability in the
+ mixed strategy 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+ is a strictly dominant strategy: 
+\begin_inset Formula $u_{i}(\sigma_{i},s_{-i})>u_{i}(s_{i}^{*},s_{-i})\forall s_{i}^{*}\in S_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $\forall s_{-i}\in S_{-i}$
+\end_inset
+
+.
+ In particular, 
+\begin_inset Formula $u_{i}(\sigma_{i},s_{-i})>u_{i}(s_{i}^{j},s_{-i})\forall j=1,...,N$
+\end_inset
+
+.
+ This implies that 
+\begin_inset Formula $u_{i}(\sigma_{i},s_{-i})>\sum_{j=1}^{N}(\sigma_{i}(s_{i}^{j})u_{i}(s_{i}^{j},s_{-i}))=u_{i}(\sigma_{i},s_{-i})$
+\end_inset
+
+, a contradiction.
+\end_layout
+
+\begin_layout Subsection*
+8.D.2
+\end_layout
+
+\begin_layout Standard
+We will show that any Nash equilibrium (NE) must be in 
+\begin_inset Formula $S^{\infty}$
+\end_inset
+
+, the set of strategies wich survive iterated strict dominance.
+ Since it is assumed that this set contains one element, this will prove
+ the required result.
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $(s_{1}^{*},s_{2}^{*},...,s_{I}^{*})$
+\end_inset
+
+ be a (mixed) NE and suppose in negation that it does not survive iterated
+ strict dominance.
+ Let 
+\begin_inset Formula $i$
+\end_inset
+
+ be the player whose strategy is first ruled out in the iterative process
+ (say in the kth round).
+ Therefore, there exists 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+such that 
+\begin_inset Formula $u_{i}(\sigma_{i},s_{-i})>u_{i}(a_{i},s_{-i})\forall s_{-i}\in S_{-i}^{k-1}$
+\end_inset
+
+, and 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ is played with positive probability 
+\begin_inset Formula $s_{i}^{*}(a_{i})$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $k$
+\end_inset
+
+ is the first round at which any of the NE strategies, 
+\begin_inset Formula $(s_{1}^{*},s_{2}^{*},...,s_{I}^{*})$
+\end_inset
+
+, are ruled out.
+ we must have that 
+\begin_inset Formula $s_{-i}^{*}\in S_{-i}^{k-1}$
+\end_inset
+
+.
+ Hence, 
+\begin_inset Formula $u_{i}(\sigma_{i},s_{-i}^{*})>u_{i}(a_{i},s_{-i}^{*})$
+\end_inset
+
+.
+ Let the strategy 
+\begin_inset Formula $s'_{i}$
+\end_inset
+
+ be derived from 
+\begin_inset Formula $s_{i}^{*}$
+\end_inset
+
+ except that any probability of playing 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ is replaced by playing 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+.
+ We thus have that:
+\begin_inset Formula 
+\[
+u_{i}(s'_{i},s_{-i}^{*})=u_{i}(s{}_{i}^{*},s_{-i}^{*})+s{}_{i}^{*}(a_{i})\cdot[u_{i}(\sigma_{i},s_{-i}^{*})-u_{i}(a_{i},s_{-i}^{*})]>u_{i}(s{}_{i}^{*},s_{-i}^{*})
+\]
+
+\end_inset
+
+which contradicts the assumption that 
+\begin_inset Formula $(s_{1}^{*},s_{2}^{*},...,s_{I}^{*})$
+\end_inset
+
+ is a NE.
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+dd
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+dd
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+dd
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+dd
+\end_layout
+
+\begin_layout Standard
+dd
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\begin_layout Standard
+d
+\end_layout
+
+\end_body
+\end_document
