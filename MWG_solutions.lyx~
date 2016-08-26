@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass article
 \use_default_options true
 \begin_modules
@@ -14,16 +16,16 @@ figs-within-sections
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman times
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -774,11 +776,11 @@ intervals
  
 \color red
 Let 
-\begin_inset Formula $i^{*}=max\, I$
+\begin_inset Formula $i^{*}=max\,I$
 \end_inset
 
 , then 
-\begin_inset Formula $i^{*}+1=min\, J$
+\begin_inset Formula $i^{*}+1=min\,J$
 \end_inset
 
 .
@@ -1726,7 +1728,7 @@ For any
 \end_layout
 
 \begin_layout Standard
-It is quite obvious.
+It is obvious.
  Therefore the proof is omitted.
 \end_layout
 
@@ -4307,12 +4309,151 @@ Since
  strategies.)
 \end_layout
 
-\begin_layout Standard
-
+\begin_layout Subsection*
+8.B.7
 \end_layout
 
 \begin_layout Standard
-d
+Suppose in negation that 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+ is a strictly dominant mixed strategy of player 
+\begin_inset Formula $i$
+\end_inset
+
+, and suppose, 
+\begin_inset Formula $s_{i}^{1},...,s_{i}^{N}$
+\end_inset
+
+ are the pure strategies that are played with positive probability in the
+ mixed strategy 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+ is a strictly dominant strategy: 
+\begin_inset Formula $u_{i}(\sigma_{i},s_{-i})>u_{i}(s_{i}^{*},s_{-i})\forall s_{i}^{*}\in S_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $\forall s_{-i}\in S_{-i}$
+\end_inset
+
+.
+ In particular, 
+\begin_inset Formula $u_{i}(\sigma_{i},s_{-i})>u_{i}(s_{i}^{j},s_{-i})\forall j=1,...,N$
+\end_inset
+
+.
+ This implies that 
+\begin_inset Formula $u_{i}(\sigma_{i},s_{-i})>\sum_{j=1}^{N}(\sigma_{i}(s_{i}^{j})u_{i}(s_{i}^{j},s_{-i}))=u_{i}(\sigma_{i},s_{-i})$
+\end_inset
+
+, a contradiction.
+\end_layout
+
+\begin_layout Subsection*
+8.D.2
+\end_layout
+
+\begin_layout Standard
+We will show that any Nash equilibrium (NE) must be in 
+\begin_inset Formula $S^{\infty}$
+\end_inset
+
+, the set of strategies wich survive iterated strict dominance.
+ Since it is assumed that this set contains one element, this will prove
+ the required result.
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $(s_{1}^{*},s_{2}^{*},...,s_{I}^{*})$
+\end_inset
+
+ be a (mixed) NE and suppose in negation that it does not survive iterated
+ strict dominance.
+ Let 
+\begin_inset Formula $i$
+\end_inset
+
+ be the player whose strategy is first ruled out in the iterative process
+ (say in the kth round).
+ Therefore, there exists 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+such that 
+\begin_inset Formula $u_{i}(\sigma_{i},s_{-i})>u_{i}(a_{i},s_{-i})\forall s_{-i}\in S_{-i}^{k-1}$
+\end_inset
+
+, and 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ is played with positive probability 
+\begin_inset Formula $s_{i}^{*}(a_{i})$
+\end_inset
+
+.
+ Since 
+\begin_inset Formula $k$
+\end_inset
+
+ is the first round at which any of the NE strategies, 
+\begin_inset Formula $(s_{1}^{*},s_{2}^{*},...,s_{I}^{*})$
+\end_inset
+
+, are ruled out.
+ we must have that 
+\begin_inset Formula $s_{-i}^{*}\in S_{-i}^{k-1}$
+\end_inset
+
+.
+ Hence, 
+\begin_inset Formula $u_{i}(\sigma_{i},s_{-i}^{*})>u_{i}(a_{i},s_{-i}^{*})$
+\end_inset
+
+.
+ Let the strategy 
+\begin_inset Formula $s'_{i}$
+\end_inset
+
+ be derived from 
+\begin_inset Formula $s_{i}^{*}$
+\end_inset
+
+ except that any probability of playing 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ is replaced by playing 
+\begin_inset Formula $\sigma_{i}$
+\end_inset
+
+.
+ We thus have that:
+\begin_inset Formula 
+\[
+u_{i}(s'_{i},s_{-i}^{*})=u_{i}(s{}_{i}^{*},s_{-i}^{*})+s{}_{i}^{*}(a_{i})\cdot[u_{i}(\sigma_{i},s_{-i}^{*})-u_{i}(a_{i},s_{-i}^{*})]>u_{i}(s{}_{i}^{*},s_{-i}^{*})
+\]
+
+\end_inset
+
+which contradicts the assumption that 
+\begin_inset Formula $(s_{1}^{*},s_{2}^{*},...,s_{I}^{*})$
+\end_inset
+
+ is a NE.
 \end_layout
 
 \begin_layout Standard

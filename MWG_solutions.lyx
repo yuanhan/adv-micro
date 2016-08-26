@@ -194,8 +194,7 @@ Since
 \begin_inset Formula $y\succsim x$
 \end_inset
 
-.
- But this contradicts 
+, which contradicts 
 \begin_inset Formula $x\succ y$
 \end_inset
 
